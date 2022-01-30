@@ -1,4 +1,7 @@
+<Beispiel.Anleitung>
 
+	<!-- in der Mod XML -->
+	
 	<configurationSets title="$l10n_configuration_design">
 		<configurationSet name="$l10n_configuration_PWO_24_Autoload">
 			<configuration name="folding" index="1"/>
@@ -156,3 +159,5 @@
 			
 		</tensionBeltsConfigurations>
 	</tensionBelts>
+
+</Beispiel.Anleitung>
