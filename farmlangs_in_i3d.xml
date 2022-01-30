@@ -1,0 +1,75 @@
+<Beispiel>
+
+          <InfoLayer name="farmland" fileId="225" numChannels="8" runtime="true">
+            <Group name="Lands" firstChannel="0" numChannels="8" >
+              <Option value="1" name="Farmland 1"/>
+              <Option value="2" name="Farmland 2"/>
+              <Option value="3" name="Farmland 3"/>
+              <Option value="4" name="Farmland 4"/>
+              <Option value="5" name="Farmland 5"/>
+              <Option value="6" name="Farmland 6"/>
+              <Option value="7" name="Farmland 7"/>
+              <Option value="8" name="Farmland 8"/>
+              <Option value="9" name="Farmland 9"/>
+              <Option value="10" name="Farmland 10"/>
+              <Option value="11" name="Farmland 11"/>
+              <Option value="12" name="Farmland 12"/>
+              <Option value="13" name="Farmland 13"/>
+              <Option value="14" name="Farmland 14"/>
+              <Option value="15" name="Farmland 15"/>
+              <Option value="16" name="Farmland 16"/>
+              <Option value="17" name="Farmland 17"/>
+              <Option value="18" name="Farmland 18"/>
+              <Option value="19" name="Farmland 19"/>
+              <Option value="20" name="Farmland 20"/>
+              <Option value="21" name="Farmland 21"/>
+              <Option value="22" name="Farmland 22"/>
+              <Option value="23" name="Farmland 23"/>
+              <Option value="24" name="Farmland 24"/>
+              <Option value="25" name="Farmland 25"/>
+              <Option value="26" name="Farmland 26"/>
+              <Option value="27" name="Farmland 27"/>
+              <Option value="28" name="Farmland 28"/>
+              <Option value="29" name="Farmland 29"/>
+              <Option value="30" name="Farmland 30"/>
+              <Option value="31" name="Farmland 31"/>
+              <Option value="32" name="Farmland 32"/>
+              <Option value="33" name="Farmland 33"/>
+              <Option value="34" name="Farmland 34"/>
+              <Option value="35" name="Farmland 35"/>
+              <Option value="36" name="Farmland 36"/>
+              <Option value="37" name="Farmland 37"/>
+              <Option value="38" name="Farmland 38"/>
+              <Option value="39" name="Farmland 39"/>
+              <Option value="40" name="Farmland 40"/>
+              <Option value="41" name="Farmland 41"/>
+              <Option value="42" name="Farmland 42"/>
+              <Option value="43" name="Farmland 43"/>
+              <Option value="44" name="Farmland 44"/>
+              <Option value="45" name="Farmland 45"/>
+              <Option value="46" name="Farmland 46"/>
+              <Option value="47" name="Farmland 47"/>
+              <Option value="48" name="Farmland 48"/>
+              <Option value="49" name="Farmland 49"/>
+              <Option value="50" name="Farmland 50"/>
+              <Option value="51" name="Farmland 51"/>
+              <Option value="52" name="Farmland 52"/>
+              <Option value="53" name="Farmland 53"/>
+              <Option value="54" name="Farmland 54"/>
+              <Option value="55" name="Farmland 55"/>
+              <Option value="56" name="Farmland 56"/>
+              <Option value="57" name="Farmland 57"/>
+              <Option value="58" name="Farmland 58"/>
+              <Option value="59" name="Farmland 59"/>
+              <Option value="60" name="Farmland 60"/>
+              <Option value="61" name="Farmland 61"/>
+              <Option value="62" name="Farmland 62"/>
+              <Option value="63" name="Farmland 63"/>
+              <Option value="64" name="Farmland 64"/>
+              <Option value="65" name="Farmland 65"/>
+              <Option value="66" name="Farmland 66"/>
+              <Option value="255" name="Farmland 255"/>		<!-- Letztes Farmland, alles was nicht kaufbar ist -->
+            </Group>
+          </InfoLayer>
+
+</Beispiel>

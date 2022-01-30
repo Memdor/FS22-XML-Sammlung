@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../shared/xml/schema/fruitTypes.xsd">
+    <fruitTypes>
+		<fruitType name="onion" shownOnMap="true" useForFieldJob="true">
+			<general startStateChannel="0" numStateChannels="4" />
+			<cultivation needsSeeding="true" allowsSeeding="true"  directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.04" />
+			<harvest minHarvestingGrowthState="11" maxHarvestingGrowthState="11" cutState="10" allowsPartialGrowthState="false" literPerSqm="5.78" />
+			<growth witheredState="9" numGrowthStates="8" growthStateTime="24000000" resetsSpray="true" growthRequiresLime="true" />
+			<growthGroundTypeChange state="8" groundType="HARVEST_READY_OTHER" />
+			<preparing outputName="onion_haulm" minGrowthState="8" maxGrowthState="8" preparedGrowthState="11" />
+			<options lowSoilDensityRequired="true" increasesSoilDensity="true" consumesLime="true" startSprayState="0" />
+			<destruction canBeDestroyed="true" filterStart="4" filterEnd="12" />
+			<cropCare maxWeederState="3" maxWeederHoeState="5" />
+			<mapColors default="0.6939 0.3663 0.2747 1" colorBlind="0.1329 0.2664 0.9911 1"/>
+		</fruitType>
+    </fruitTypes>
+    <fruitTypeCategories>
+        <fruitTypeCategory name="PLANTER" >ONION</fruitTypeCategory>
+    </fruitTypeCategories>
+</map>
+
+

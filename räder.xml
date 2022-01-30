@@ -1,33 +1,207 @@
-<wheelConfiguration name="$l10n_configuration_streetWheels" price="0" brand="LIZARD">
-                <wheels autoRotateBackSpeed="1.7">
-                    <wheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" configId="truckFront" isLeft="true" hasTireTracks="true" hasParticles="true">
-                        <physics rotSpeed="1" restLoad="3.3" repr="0>0|1|3|0|0|0" driveNode="0>0|1|3|0|0|0|0|0" forcePointRatio="0.2" initialCompression="30" suspTravel="0.22" spring="180" damper="40" maxLatStiffness="350"/>
+<Beispiel>
+
+	<!-- FS22_pwo24_MD -->
+	
+	<wheels>
+        <wheelConfigurations>
+            <wheelConfiguration name="$l10n_configuration_valueDefault" price="0" brand="TRELLEBORG" saveId="TRELLEBORG_BROAD">
+                <wheels>
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/T404/560_45R22_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.0" repr="wheelFrontLeft"   forcePointRatio="0.3" initialCompression="8" suspTravel="0.3" spring="190" mass="0.5" damper="40" yOffset="0.01" maxLatStiffness="350" />
                     </wheel>
-                    <wheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" configId="truckFront" isLeft="false" hasTireTracks="true" hasParticles="true">
-                        <physics rotSpeed="1" restLoad="3.3" repr="0>0|1|3|0|1|0" driveNode="0>0|1|3|0|1|0|0|0" forcePointRatio="0.2" initialCompression="30" suspTravel="0.22" spring="180" damper="40" maxLatStiffness="350"/>
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/T404/560_45R22_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.0" repr="wheelFrontRight"  forcePointRatio="0.3" initialCompression="8" suspTravel="0.3" spring="190" mass="0.5" damper="40" yOffset="0.01" maxLatStiffness="350" />
                     </wheel>
-                    <wheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" configId="dual" isLeft="true" hasTireTracks="true" hasParticles="true">
-                        <physics rotSpeed="0" restLoad="1.6" repr="0>0|1|3|1|0" forcePointRatio="0.3" initialCompression="10" suspTravel="0.22" spring="180" damper="40" maxLatStiffness="350"/>
-                        <additionalWheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" isLeft="true" configId="dualConnector" offset="0.08" hasTireTracks="true"/>
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/T404/560_45R22_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics tipOcclusionAreaGroupId="1" restLoad="0.7" repr="wheelMiddleLeft"  forcePointRatio="0.3" initialCompression="6" suspTravel="0.7" spring="190" mass="0.5" damper="40" brakeFactor="0.3" yOffset="0.01" maxLatStiffness="350" />
+                        <wheelChock parkingNode="wheelChock_01"/>
+                        <wheelChock parkingNode="wheelChock_02" isInverted="true" />
                     </wheel>
-                    <wheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true">
-                        <physics rotSpeed="0" restLoad="1.6" repr="0>0|1|3|1|1" forcePointRatio="0.3" initialCompression="10" suspTravel="0.22" spring="180" damper="40" maxLatStiffness="350"/>
-<wheelConfiguration name="$l10n_configuration_streetWheels" price="0" brand="LIZARD">
-                <wheels autoRotateBackSpeed="1.7">
-                    <wheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" configId="truckFront" isLeft="true" hasTireTracks="true" hasParticles="true">
-                        <physics rotSpeed="1" restLoad="3.3" repr="0>0|1|3|0|0|0" driveNode="0>0|1|3|0|0|0|0|0" forcePointRatio="0.2" initialCompression="30" suspTravel="0.22" spring="180" damper="40" maxLatStiffness="350"/>
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/T404/560_45R22_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics tipOcclusionAreaGroupId="1" restLoad="0.7" repr="wheelMiddleRight" forcePointRatio="0.3" initialCompression="6" suspTravel="0.7" spring="190" mass="0.5" damper="40" brakeFactor="0.3" yOffset="0.01" maxLatStiffness="350" />
                     </wheel>
-                    <wheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" configId="truckFront" isLeft="false" hasTireTracks="true" hasParticles="true">
-                        <physics rotSpeed="1" restLoad="3.3" repr="0>0|1|3|0|1|0" driveNode="0>0|1|3|0|1|0|0|0" forcePointRatio="0.2" initialCompression="30" suspTravel="0.22" spring="180" damper="40" maxLatStiffness="350"/>
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/T404/560_45R22_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics tipOcclusionAreaGroupId="1" restLoad="0.7" repr="wheelBackLeft"    forcePointRatio="0.3" initialCompression="6" suspTravel="0.7" spring="190" mass="0.5" damper="40" brakeFactor="0.3" yOffset="0.01" maxLatStiffness="350" />
                     </wheel>
-                    <wheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" configId="dual" isLeft="true" hasTireTracks="true" hasParticles="true">
-                        <physics rotSpeed="0" restLoad="1.6" repr="0>0|1|3|1|0" forcePointRatio="0.3" initialCompression="10" suspTravel="0.22" spring="180" damper="40" maxLatStiffness="350"/>
-                        <additionalWheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" isLeft="true" configId="dualConnector" offset="0.08" hasTireTracks="true"/>
-                    </wheel>
-                    <wheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true">
-                        <physics rotSpeed="0" restLoad="1.6" repr="0>0|1|3|1|1" forcePointRatio="0.3" initialCompression="10" suspTravel="0.22" spring="180" damper="40" maxLatStiffness="350"/>
-                        <additionalWheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" isLeft="false" configId="dualConnector" offset="0.08" hasTireTracks="true"/>
+                    <wheel filename="$data/shared/wheels/tires/trelleborg/T404/560_45R22_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics tipOcclusionAreaGroupId="1" restLoad="0.7" repr="wheelBackRight"   forcePointRatio="0.3" initialCompression="6" suspTravel="0.7" spring="190" mass="0.5" damper="40" brakeFactor="0.3" yOffset="0.01" maxLatStiffness="350" />
                     </wheel>
                 </wheels>
-                
-                <!-- move dual wheels -->
+            </wheelConfiguration>
+
+            <wheelConfiguration name="$l10n_configuration_valueDefault" price="1200" brand="MICHELIN" saveId="MICHELIN_DEFAULT">
+                <wheels baseConfig="TRELLEBORG_BROAD">
+                    <wheel filename="$data/shared/wheels/tires/michelin/cargoXBibHD/560_45R22_5.xml">
+                        <physics yOffset="-0.002" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/cargoXBibHD/560_45R22_5.xml">
+                        <physics yOffset="-0.002" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/cargoXBibHD/560_45R22_5.xml">
+                        <physics yOffset="-0.002" />
+                        <wheelChock />
+                        <wheelChock />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/cargoXBibHD/560_45R22_5.xml">
+                        <physics yOffset="-0.002" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/cargoXBibHD/560_45R22_5.xml">
+                        <physics yOffset="-0.002" />
+                        <wheelChock />
+                        <wheelChock />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/cargoXBibHD/560_45R22_5.xml">
+                        <physics yOffset="-0.002" />
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+
+            <wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="1200" brand="MICHELIN" saveId="MICHELIN_BROAD">
+                <wheels baseConfig="TRELLEBORG_BROAD">
+                    <wheel filename="$data/shared/wheels/tires/michelin/cargoXBib/710_45R22_5.xml">
+                        <physics yOffset="-0.002" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/cargoXBib/710_45R22_5.xml">
+                        <physics yOffset="-0.002" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/cargoXBib/710_45R22_5.xml">
+                        <physics yOffset="-0.002" />
+                        <wheelChock />
+                        <wheelChock />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/cargoXBib/710_45R22_5.xml">
+                        <physics yOffset="-0.002" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/cargoXBib/710_45R22_5.xml">
+                        <physics yOffset="-0.002" />
+                        <wheelChock />
+                        <wheelChock />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/michelin/cargoXBib/710_45R22_5.xml">
+                        <physics yOffset="-0.002" />
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+
+            <wheelConfiguration name="$l10n_configuration_valueDefault" price="1200" brand="BKT" saveId="BKT_DEFAULT">
+                <wheels baseConfig="TRELLEBORG_BROAD">
+                    <wheel filename="$data/shared/wheels/tires/bkt/ridemaxFL693M/560_45R22_5.xml">
+                        <physics yOffset="-0.004" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/bkt/ridemaxFL693M/560_45R22_5.xml">
+                        <physics yOffset="-0.004" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/bkt/ridemaxFL693M/560_45R22_5.xml">
+                        <physics yOffset="-0.004" />
+                        <wheelChock />
+                        <wheelChock />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/bkt/ridemaxFL693M/560_45R22_5.xml">
+                        <physics yOffset="-0.004" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/bkt/ridemaxFL693M/560_45R22_5.xml">
+                        <physics yOffset="-0.004" />
+                        <wheelChock />
+                        <wheelChock />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/bkt/ridemaxFL693M/560_45R22_5.xml">
+                        <physics yOffset="-0.004" />
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+
+            <wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="1200" brand="BKT" saveId="BKT_BROAD">
+                <wheels baseConfig="TRELLEBORG_BROAD">
+                    <wheel filename="$data/shared/wheels/tires/bkt/ridemaxFL693M/600_50R22_5.xml">
+                        <physics yOffset="-0.004" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/bkt/ridemaxFL693M/600_50R22_5.xml">
+                        <physics yOffset="-0.004" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/bkt/ridemaxFL693M/650_50R22_5.xml">
+                        <physics yOffset="-0.004" />
+                        <wheelChock />
+                        <wheelChock />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/bkt/ridemaxFL693M/650_50R22_5.xml">
+                        <physics yOffset="-0.004" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/bkt/ridemaxFL693M/650_50R22_5.xml">
+                        <physics yOffset="-0.004" />
+                        <wheelChock />
+                        <wheelChock />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/bkt/ridemaxFL693M/650_50R22_5.xml">
+                        <physics yOffset="-0.004" />
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+
+            <wheelConfiguration name="$l10n_configuration_valueDefault" price="0" brand="VREDESTEIN" saveId="VREDESTEIN_DEFAULT">
+                <wheels baseConfig="TRELLEBORG_BROAD">
+                    <wheel filename="$data/shared/wheels/tires/vredestein/flotationPro/560_45R22_5.xml">
+                        <physics yOffset="0.003" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/vredestein/flotationPro/560_45R22_5.xml">
+                        <physics yOffset="0.003" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/vredestein/flotationPro/560_45R22_5.xml">
+                        <physics yOffset="0.003" />
+                        <wheelChock />
+                        <wheelChock />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/vredestein/flotationPro/560_45R22_5.xml">
+                        <physics yOffset="0.003" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/vredestein/flotationPro/560_45R22_5.xml">
+                        <physics yOffset="0.003" />
+                        <wheelChock />
+                        <wheelChock />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/vredestein/flotationPro/560_45R22_5.xml">
+                        <physics yOffset="0.003" />
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+
+            <wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="1200" brand="VREDESTEIN" saveId="VREDESTEIN_BROAD">
+                <wheels baseConfig="TRELLEBORG_BROAD">
+                    <wheel filename="$data/shared/wheels/tires/vredestein/flotationPro/620_40R22_5.xml">
+                        <physics yOffset="0.002" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/vredestein/flotationPro/620_40R22_5.xml">
+                        <physics yOffset="0.002" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/vredestein/flotationPro/620_40R22_5.xml">
+                        <physics yOffset="0.002" />
+                        <wheelChock />
+                        <wheelChock />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/vredestein/flotationPro/620_40R22_5.xml">
+                        <physics yOffset="0.002" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/vredestein/flotationPro/620_40R22_5.xml">
+                        <physics yOffset="0.002" />
+                        <wheelChock />
+                        <wheelChock />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/vredestein/flotationPro/620_40R22_5.xml">
+                        <physics yOffset="0.002" />
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+        </wheelConfigurations>
+
+        <hubs>
+            <color0 useBaseColor="true"/>
+            <color1>SHARED_GREY3</color1>
+            <hub linkNode="wheelFrontLeft"   filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="true"  scale="0.28 0.33 0.33" />
+            <hub linkNode="wheelFrontRight"  filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="false" scale="0.28 0.33 0.33" />
+            <hub linkNode="wheelMiddleLeft"  filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="true"  scale="0.28 0.33 0.33" />
+            <hub linkNode="wheelMiddleRight" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="false" scale="0.28 0.33 0.33" />
+            <hub linkNode="wheelBackLeft"    filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="true"  scale="0.28 0.33 0.33" />
+            <hub linkNode="wheelBackRight"   filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="false" scale="0.28 0.33 0.33" />
+        </hubs>
+    </wheels>
+
+</Beispiel>

@@ -1,0 +1,40 @@
+<Beispiel>
+
+	<!-- FS22_pwo24_MD -->
+
+    <!-- <aPalletAutoLoader> -->
+        <!-- <aPalletAutoLoaderConfigurations title="$l10n_configuration_aPalletAutoloader_PWO"> -->
+            <!-- <aPalletAutoLoaderConfiguration name="$l10n_configuration_Pallet_Payload_1" price="0" maxObjects="22" useBales="true" useTensionBelts="false" supportedObject="data/objects/pallets" UnloadRightOffset="-3.5 0 -1" UnloadLeftOffset="3.5 0 0"> -->
+                <!-- <trigger node="triggerNode"/> -->
+                <!-- <pickupTriggers> -->
+                    <!-- <pickupTrigger node="pickupTriggerLeft"/> -->
+                    <!-- <pickupTrigger node="pickupTriggerRight"/> -->
+                <!-- </pickupTriggers> -->
+                <!-- <loadArea baseNode="pwo24_vis" leftRightCornerOffset="1.23 1.272 4.719" lenght="9.83" width="2.46" height="3"/> -->
+            <!-- </aPalletAutoLoaderConfiguration> -->
+            <!-- <aPalletAutoLoaderConfiguration name="$l10n_configuration_Pallet_Payload_2" price="1000" maxObjects="36" useBales="true" useTensionBelts="false" supportedObject="data/objects/pallets" UnloadRightOffset="-3.5 0 -1" UnloadLeftOffset="3.5 0 0"> -->
+                <!-- <trigger node="triggerNode"/> -->
+                <!-- <pickupTriggers> -->
+                    <!-- <pickupTrigger node="pickupTriggerLeft"/> -->
+                    <!-- <pickupTrigger node="pickupTriggerRight"/> -->
+                <!-- </pickupTriggers> -->
+                <!-- <loadArea baseNode="pwo24_vis" leftRightCornerOffset="1.23 1.272 4.719" lenght="9.83" width="2.46" height="3"/> -->
+            <!-- </aPalletAutoLoaderConfiguration> -->
+		<!-- </aPalletAutoLoaderConfigurations> -->
+    <!-- </aPalletAutoLoader> -->
+	
+    <aPalletAutoLoader>
+        <aPalletAutoLoaderConfigurations>
+            <aPalletAutoLoaderConfiguration maxObjects="80" useBales="true" useTensionBelts="false" supportedObject="data/objects/pallets" UnloadRightOffset="-3.5 0 -1" UnloadLeftOffset="3.5 0 0">
+                <trigger node="triggerNode"/>
+                <pickupTriggers>
+                    <pickupTrigger node="pickupTriggerLeft"/>
+                    <pickupTrigger node="pickupTriggerRight"/>
+                </pickupTriggers>
+                <loadArea baseNode="pwo24_vis" leftRightCornerOffset="1.235 1.272 4.719" lenght="9.83" width="2.47" height="3"/>
+            </aPalletAutoLoaderConfiguration>
+		</aPalletAutoLoaderConfigurations>
+    </aPalletAutoLoader>
+
+
+</Beispiel>

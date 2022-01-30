@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<growth>
+    <nonSeasonal>
+        <fruit name="onion">
+            <update range="1" set="3" />
+            <update range="2-9" add="2" />
+            <update range="12-13" set="14" />
+        </fruit>
+    </nonSeasonal>
+</growth>
