@@ -3,7 +3,7 @@
 	<!-- modDesc -->
 
 	<!-- Nur wenn der Mod in dem Map Ordner liegt! z.B. maps/placeables/ -->
-	<storeItems>			<!-- Pfad ausgehend immer vom Ordner mit modDesc. -->
+	<storeItems>			<!-- Pfad immer ausgehend vom Ordner mit modDesc. -->
 		<storeItem xmlFilename="maps/placeables/cerealFactory_MD/cerealFactory.xml"/> 
 	</storeItems>
 	<!-- Bei Fremdmod oder Mod aus dem Spieleordner muss hier nichts eingetragen werden -->
