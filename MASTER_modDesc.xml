@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<!-- THIS IS A TEMPLATE! YOU DON'T NEED EVERY TAG FOR EVERY MOD! -->
+<modDesc descVersion="60">
+    <author>Modder name / Team name</author>
+    <contributors>
+        <contributor>Moddingpartner 1</contributor>
+        <contributor>Moddingpartner 2</contributor>
+    </contributors>
+    <version>1.0.0.0</version>
+    <title>
+    <!-- Supported languages: en, de, It, fr, es, br, cs, ct, cz, ea, hu, jp, kr, pl, nl, pt, ro, ru, tr -->
+        <en>Name Of Mod</en>
+        <de>Name Des Mods</de>
+    </title>
+    <description>
+        <en>
+            <![CDATA[Description of
+this mod. There shouldn't be the same title in here. Each line should
+start at the beginning or it would not be shown correctly aligned ingame.
+Don't add tabs or spaces in front of a line!]]>
+        </en>
+        <de>
+        <![CDATA[Beschreibung von diesem
+Mod. Hier sollte nicht erneut der Titel stehen. Jede Zeile sollte von vorne
+beginnen, weil sonst die Formatierung im Spiel falsch wäre.
+Keine Leerzeichen oder Tabs an den Anfang der Zeile setzen!]]>
+        </de>
+    </description>
+    <iconFilename>giants_256x256_modhub.dds</iconFilename>
+    <multiplayer supported="true" only="true"/>
+    <l10n>
+        <text name="typeDesc_gooseneckTanker">
+            <en>Gooseneck tanker</en>
+            <de>Schwanenhalsfass</de>
+        </text>
+        <text name="typeDesc_steerableOpenWindow">
+            <en>Open window</en>
+            <de>Fenster öffnen</de>
+        </text>
+    </l10n>
+    <storeItems>
+        <storeItem xmlFilename="vehicle.xml"/>
+    </storeItems>
+	<specializations>
+        <specialization name="animationHandTool" className="AnimationHandTool" filename="AnimationHandTool.lua" />
+		<specialization name="customStrawSheaves" className="CustomStrawSheaves" filename="CustomStrawSheaves.lua" />
+    </specializations>
+    <vehicleTypes>
+            <type name="handToolScythe" parent="harvesters" filename="$dataS/scripts/vehicles/Vehicle.lua">
+                <specialization name="animationHandTool" />
+                <specialization name="customMovingSounds" />
+                <specialization name="customStrawSheaves" />
+            </type>
+    </vehicleTypes>
+    <extraSourceFiles>
+        <sourceFile filename="scripts/specialCode.lua" />
+    </extraSourceFiles>
+    <dependencies>
+        <dependency>FSxx_SpecialVehicleForMyMap</dependency>
+    </dependencies>
+    <brands>
+		<brand name="lizardEvo"	title="LIZARDEVO"	image="/store/brands/brand_lizardEvo.dds" />
+	</brands>
+	<brandcolors>
+        <color name="LIZARD_GREEN1" value="0.0176 0.4508 0.0232 0" />
+        <color name="LIZARD_RED1" value="0.4508 0.0176 0.0232 0" />
+    </brandcolors>
+    <jointTypes>
+        <jointType name="topBall"/>
+    </jointTypes>
+
+    <materialHolders>
+        <!-- A material holder holds just the materials attached to a shape to be re-used by systems
+        such as particle effects -->
+        <materialHolder filename="myMaterialHolder.i3d" />
+    </materialHolders>
+
+    <storePacks>
+        <storePack name="speciaLizardPotato" title="My Special Lizard Potato Pack" image="myPotatoPack.png" />
+    </storePacks>
+    <connectionHoses>
+        <connectionHose xmlFilename="$data/shared/connectionHoses/connectionHoses.xml"/>
+        <connectionHose xmlFilename=""/>
+    </connectionHoses>
+    <bales>
+    <bale filename="objects/squarebales/squarebale240.xml"/>
+    <bale filename="objects/squarebales/squarebale300.xml"/>
+    </bales>
+
+</modDesc>

@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="63">
+
+    <author>MEMDOR</author>
+	
+    <contributors>
+        <contributor>Moddingpartner 1</contributor>
+        <contributor>Moddingpartner 2</contributor>
+    </contributors>
+
+    <version>1.0.9.0</version>
+
+    <title>
+    <!-- Supported languages: en, de, It, fr, es, br, cs, ct, cz, ea, hu, jp, kr, pl, nl, pt, ro, ru, tr -->
+        <en>Gold Market</en>
+        <de>Gold Handel</de>
+        <fr>Gold Commerce</fr>
+        <it>Gold Commercio</it>
+    </title>
+
+    <description>
+        <en> <![CDATA[
+Purchase of various goods from the Gold company.
+
+Changelog V 1.0.9.0
+- Tested with TestRunner_public (GIANTS) (Error free!)
+			]]>        
+        </en>
+		<de> <![CDATA[
+Ankauf verschiedener Güter der Firma Gold.
+
+Changelog V 1.0.9.0
+- Getestet mit TestRunner_public (GIANTS) (Fehlerfrei!)
+			]]>        
+        </de>
+        <fr> <![CDATA[
+Achat de divers biens de la société Gold.
+
+Changelog V 1.0.9.0
+- Testé avec TestRunner_public (GIANTS) (sans erreur !)
+			]]>        
+        </fr>
+        <it>
+            <![CDATA[
+Acquisto di vari beni dalla società Gold.
+
+Changelog V 1.0.9.0
+- Testato con TestRunner_public (GIANTS). 
+			]]>        
+        </it>
+    </description>
+
+    <iconFilename>icon_sellingStation_Gold.png</iconFilename>
+
+    <multiplayer supported="true" />
+
+    <dependencies>
+        <dependency>FS22_sellingStationGold</dependency>			<!-- Welcher Mod wird extra benötigt -->
+        <dependency>FSxx_SpecialVehicleForMyMap</dependency>
+     </dependencies>
+
+    <fillTypes filename="fillTypes.xml"/>
+	
+    <fruitTypes filename="fruitTypes/newfruitTypes.xml"/>
+	
+    <fruitTypes filename="fruitTypes/newgrowth.xml"/>
+
+    <storeItems>
+        <!-- Produktionen -->
+        <storeItem xmlFilename="maps/placeables/sellingStationShoppingMall_MD/sellingStationShoppingMall_MD.xml"/>
+        <storeItem xmlFilename="maps/placeables/cerealFactoryMD/cerealFactoryMD.xml"/>
+        <storeItem xmlFilename="maps/placeables/BakeryEU_MD/bakeryEU_MD.xml"/>
+        <storeItem xmlFilename="maps/placeables/beeHivePalletSpawnerMD/beeHivePalletSpawnerMD.xml"/>
+        <!-- Hallen -->
+        <storeItem xmlFilename="maps/placeables/FS22_HalleSolarPanels/garageSolarPanels.xml"/>
+        <storeItem xmlFilename="maps/placeables/FS22_FarmHouseMD/farmHouseMD.xml"/>
+        <storeItem xmlFilename="maps/placeables/FS22_Farma1000Multisilo/farma1000.xml"/>
+    </storeItems>
+
+    <extraSourceFiles>
+		<sourceFile filename="main.lua"/>
+        <sourceFile filename="scripts/specialCode.lua" />
+    </extraSourceFiles>
+
+	<specializations>
+        <specialization name="animationHandTool" className="AnimationHandTool" filename="AnimationHandTool.lua" />
+		<specialization name="customStrawSheaves" className="CustomStrawSheaves" filename="CustomStrawSheaves.lua" />
+    </specializations>
+
+    <vehicleTypes>
+        <type name="PalletAutoLoaderCarTrailer" parent="trailer" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="FS22_aPalletAutoLoader.aPalletAutoLoader"/>
+			<specialization name="lightExtension"/>
+			<specialization name="tensionBelts"/> 
+			<specialization name="fillUnit" />
+			<specialization name="ikChains" />
+			<specialization name="dynamicMountAttacher" />
+			<specialization name="animationHandTool" />
+			<specialization name="customMovingSounds" />
+			<specialization name="customStrawSheaves" />
+        </type>
+    </vehicleTypes>
+
+	<registerSpecializations>
+		<registerSpecialization name="autoTurnOffTurnLights" className="AutoTurnOffTurnLights" filename="AutoTurnOffTurnLights.lua" searchedSpecializations="drivable"/>
+	</registerSpecializations>
+
+	<placeableTypes>
+		<type name="SiloWithPallet" parent="silo" filename="$dataS/scripts/placeables/Placeable.lua">
+			<specialization name="aPalletSilo"/>
+		</type>
+	</placeableTypes>	
+
+	<newcategory name="MEMDOR" title="Memdor" type="VEHICLE" img="texture/memdor.dds" />
+
+	<brands>
+        <brand name="MEMDOR" title="Memdor" image="brand_shop.dds"/>
+    </brands>
+
+	<brandColors>
+		<color name="PONGE_GREEN"   value="0.01 0.25 0.01 0" />
+    </brandColors>
+
+	<jointTypes>
+        <jointType name="hAttach"/> 	
+    </jointTypes>			
+
+    <materialHolders>
+        <!-- Ein Materialhalter enthält nur die Materialien, die an einer Form befestigt sind, um von Systemen wiederverwendet zu werden
+        wie z.B. Partikeleffekte -->
+        <materialHolder filename="myMaterialHolder.i3d" />
+    </materialHolders>
+
+    <storePacks>
+        <storePack name="speciaLizardPotato" title="My Special Lizard Potato Pack" image="myPotatoPack.png" />
+    </storePacks>
+
+    <connectionHoses>
+        <connectionHose xmlFilename="$data/shared/connectionHoses/connectionHoses.xml"/>
+        <connectionHose xmlFilename=""/>
+    </connectionHoses>
+
+    <bales>
+		<bale filename="objects/squarebales/squarebale240.xml"/>
+		<bale filename="objects/squarebales/squarebale300.xml"/>
+    </bales>
+
+    <maps>
+        <map id="Remsfeld" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="maps/map.xml" defaultVehiclesXMLFilename="maps/vehicles.xml" defaultPlaceablesXMLFilename="maps/placeables.xml" defaultItemsXMLFilename="maps/items.xml">
+            <title>
+                <en>MapUS by MEMDOR</en>
+                <de>US Map by MEMDOR</de>
+            </title>
+            <description>
+                <en>This is the sample mod map US.</en>
+                <de>Dies ist die Beispiel Mod Map US.</de>
+            </description>
+            <iconFilename>preview.png</iconFilename>
+        </map>
+    </maps>
+
+    <actions>
+        <action name="AL_LOAD_PALLET"/>
+        <action name="AL_TOGGLE_LOADINGTYPE"/>
+        <action name="AL_TOGGLE_TIPSIDE"/>
+        <action name="AL_UNLOAD"/>
+        <action name="AL_TOGGLE_MARKERS"/>
+    </actions>
+
+    <inputBinding>
+        <actionBinding action="AL_LOAD_PALLET">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_r"/>
+            <binding device="0_XINPUT_GAMEPAD" input="BUTTON_11" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="AL_TOGGLE_LOADINGTYPE">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_z"/>
+            <binding device="0_XINPUT_GAMEPAD" input="BUTTON_10" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="AL_TOGGLE_TIPSIDE">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_u"/>
+            <binding device="0_XINPUT_GAMEPAD" input="BUTTON_13" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="AL_UNLOAD">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_i"/>
+            <binding device="0_XINPUT_GAMEPAD" input="BUTTON_15" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="AL_TOGGLE_MARKERS">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_u"/>
+        </actionBinding>
+    </inputBinding>
+
+	<l10n filenamePrefix="translations/l10n" />
+
+	<l10n>
+		<text name="input_CABVIEW_LEAN_FORWARD">
+			<en>Lean Forwards</en>
+			<de>Blick nach vorne lehnen</de>
+			<fr>Se pencher en avant</fr>
+		</text>
+	</l10n>
+
+    <l10n>
+		<text name="function_PalletAutoload_Truck">         <en>Truck with Autoload for pallets.</en>   <de>Truck mit Autoload für verschiedene Paletten.</de>      <fr>Camion avec Autoload pour palettes.</fr>    <it>Camion con Autoload per pallet.</it>  </text>
+		<text name="type_PalletAutoload_Truck">             <en>Pallet Autoload</en>                    <de>Paletten Autoloader</de>                                <fr>Autochargeur de palettes</fr>               <it>Caricatore automatico di pallet</it>  </text>
+		<text name="unit_PalletAutoload_Truck">             <en>Pallets</en>                            <de>Paletten</de>                                           <fr>Palettes</fr>                               <it>Pallets</it>  </text>
+		<text name="configuration_aPalletAutoloader_Mack">  <en>Maximum payload</en>                    <de>Maximale Zuladdung</de>                                 <fr>Charge maximale</fr>                        <it>Carico utile massimo</it>  </text>
+		<text name="configuration_Pallet_10">               <en>11 Euro pallets</en>                    <de>11 Euro-Paletten</de>                                   <fr>11 palettes Euro</fr>                       <it>11 Euro pallet</it>  </text>
+		<text name="configuration_Pallet_20">               <en>22 Euro pallets</en>                    <de>22 Euro-Paletten</de>                                   <fr>22 palettes Euro</fr>                       <it>22 Euro pallet</it>  </text>
+        <text name="configuration_Pallet_30">               <en>33 Euro pallets</en>                    <de>33 Euro-Paletten</de>                                   <fr>33 palettes Euro</fr>                       <it>33 Euro pallet</it>  </text>
+    </l10n>
+
+</modDesc>

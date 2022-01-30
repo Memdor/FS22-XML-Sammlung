@@ -1,0 +1,150 @@
+<configurationSets title="$l10n_configuration_design">
+    <configurationSet name="$l10n_configuration_PWO_24_Autoload">
+        <configuration name="folding" index="1"/>
+        <configuration name="tensionBelts" index="2"/>
+    </configurationSet>
+    <configurationSet name="$l10n_configuration_valueDesign02">
+        <configuration name="folding" index="2"/>
+        <configuration name="tensionBelts" index="2"/>
+    </configurationSet>
+    <!-- <configurationSet name="$l10n_configuration_valueDesign03">
+        <configuration name="folding" index="3"/>
+        <configuration name="tensionBelts" index="1"/>
+    </configurationSet> -->
+</configurationSets>
+
+<foldable>
+    <foldingConfigurations>
+        <foldingConfiguration>
+            <foldingParts startMoveDirection="1" dynamicMountMinLimit="-1" dynamicMountMaxLimit="-1">
+                <foldingPart animationName="folding01" speedScale="0.5"/>
+            </foldingParts>
+            <objectChange node="colPart01" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="colPart02" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="colPart03" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="colPart04" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="colPart11" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="colPart12" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="config01" visibilityActive="true" visibilityInactive="false"/>
+        </foldingConfiguration>
+
+        <foldingConfiguration>
+            <foldingParts startMoveDirection="1" turnOnFoldDirection="-1" dynamicMountMinLimit="1" dynamicMountMaxLimit="1">
+                <foldingPart animationName="folding02" speedScale="0.3"/>
+            </foldingParts>
+            <objectChange node="colPart07" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="colPart08" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="colPart09" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="colPart10" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="colPart15" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="colPart16" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="config02" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="hoses_config02" visibilityActive="true" visibilityInactive="false"/>
+        </foldingConfiguration>
+
+        <foldingConfiguration>
+            <foldingParts startMoveDirection="1" turnOnFoldDirection="-1" dynamicMountMinLimit="1" dynamicMountMaxLimit="1">
+                <foldingPart animationName="folding03" speedScale="0.3"/>
+            </foldingParts>
+            <objectChange node="colPart05" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="colPart06" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="colPart13" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="colPart14" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="config03" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="hoses_config03" visibilityActive="true" visibilityInactive="false"/>
+        </foldingConfiguration>
+    </foldingConfigurations>
+</foldable>
+
+<animations>
+    <animation name="moveSupport">
+        <part componentJointIndex="2" startTime="0.0" endTime="0.15" startRotLimit="15 0 0" endRotLimit="5 0 0" />
+
+        <sound template="latchSmall"  startTime="0.01" volumeScale="0.2" pitchScale="1.8" linkNode="attacherJoint"/>
+    </animation>
+
+    <animation name="folding01">
+        <part node="config01_doorLeft"      startTime="0.0" endTime="1.0" startRot="0 0 -170" endRot="0 0 0" tangentType="spline"/>
+        <part node="config01_doorLeftBack"  startTime="0.5" endTime="1.5" startRot="0 0 -170" endRot="0 0 0" tangentType="spline"/>
+        <part node="config01_doorRight"     startTime="1.0" endTime="2.0" startRot="0 0 170" endRot="0 0 0" tangentType="spline"/>
+        <part node="config01_doorRightBack" startTime="1.5" endTime="2.5" startRot="0 0 170" endRot="0 0 0" tangentType="spline"/>
+
+        <sound template="defaultHydraulicSound" startTime="1.5"  endTime="2.49" volumeScale="1"   pitchScale="1.5"/>
+        <sound template="defaultHydraulicSound" startTime="1"    endTime="2"    volumeScale="1"   pitchScale="1.3"/>
+        <sound template="defaultHydraulicSound" startTime="0.5"  endTime="1.5"  volumeScale="1"   pitchScale="1.7"/>
+        <sound template="defaultHydraulicSound" startTime="0.01" endTime="1"    volumeScale="1"   pitchScale="1.4"/>
+        <sound template="clackVar4"             startTime="1.5"  direction="-1" volumeScale="0.8" pitchScale="1"/>
+        <sound template="sheetImp02"            startTime="1"    direction="-1" volumeScale="1.2" pitchScale="1.4"/>
+        <sound template="clackVar4"             startTime="0.5"  direction="-1" volumeScale="0.7" pitchScale="1.2"/>
+        <sound template="sheetImp01"            startTime="0.5"  direction="-1" volumeScale="0.7" pitchScale="0.8"/>
+        <sound template="sheetImp02"            startTime="0.01" direction="-1" volumeScale="1.2" pitchScale="1.6"/>
+        <sound template="clackVar4"             startTime="1"    direction="1"  volumeScale="0.9" pitchScale="1.5"/>
+        <sound template="sheetImp05"            startTime="1"    direction="1"  volumeScale="0.7" pitchScale="0.8"/>
+        <sound template="sheetImp02"            startTime="1.5"  direction="1"  volumeScale="1"   pitchScale="1.4"/>
+        <sound template="clackVar4"             startTime="1.5"  direction="1"  volumeScale="1"   pitchScale="1.1"/>
+        <sound template="clackVar6"             startTime="2"    direction="1"  volumeScale="0.6" pitchScale="0.8"/>
+        <sound template="sheetImp01"            startTime="2"    direction="1"  volumeScale="0.9" pitchScale="0.8"/>
+        <sound template="sheetImp06"            startTime="2.5"  direction="1"  volumeScale="0.7" pitchScale="1"/>
+        <sound template="clackVar4"             startTime="2.5"  direction="1"  volumeScale="1"   pitchScale="1.2"/>
+    </animation>
+    <animation name="folding02">
+        <part node="config02_leftArm"       startTime="0.0"  endTime="1.0" startRot="0 0 0" endRot="0 0 100"/>
+        <part node="config02_leftArmLower"  startTime="0.35" endTime="1.0" startRot="0 0 0" endRot="0 0 70"/>
+        <part node="config02_rightArm"      startTime="0.5"  endTime="1.5" startRot="0 0 0" endRot="0 0 -100"/>
+        <part node="config02_rightArmLower" startTime="0.85" endTime="1.5" startRot="0 0 0" endRot="0 0 -70"/>
+
+        <sound template="defaultHydraulicSound" startTime="0.01" endTime="1"    volumeScale="1"   pitchScale="1.5"/>
+        <sound template="defaultHydraulicSound" startTime="0.5"  endTime="1.49" volumeScale="1"   pitchScale="1.3"/>
+        <sound template="clackVar6"             startTime="1"    direction="1"  volumeScale="1"   pitchScale="0.8"/>
+        <sound template="sheetImp05"            startTime="1"    direction="1"  volumeScale="0.7" pitchScale="0.8"/>
+        <sound template="sheetImp01"            startTime="1.5"  direction="1"  volumeScale="0.7" pitchScale="0.8"/>
+        <sound template="clackVar6"             startTime="1.5"  direction="1"  volumeScale="1.2" pitchScale="0.7"/>
+        <sound template="clackVar6"             startTime="0.5"  direction="-1" volumeScale="0.7" pitchScale="0.9"/>
+        <sound template="sheetImp01"            startTime="0.5"  direction="-1" volumeScale="0.7" pitchScale="0.8"/>
+        <sound template="sheetImp02"            startTime="0.01" direction="-1" volumeScale="1.2" pitchScale="1.6"/>
+        <sound template="clackVar6"             startTime="0.01" direction="-1" volumeScale="0.9" pitchScale="0.7"/>
+        <sound template="clackVar6"             startTime="0.85" direction="-1" volumeScale="0.7" pitchScale="0.8"/>
+        <sound template="clackVar6"             startTime="0.35" direction="-1" volumeScale="0.7" pitchScale="0.8"/>
+    </animation>
+    <animation name="folding03">
+        <part node="leftArm"      startTime="0.0" endTime="1.0" startRot="0 0 -64" endRot="0 0 0" tangentType="spline"/>
+        <part node="leftArmPart"      startTime="0.0" endTime="1.0" startRot="0 0 64" endRot="0 0 0" tangentType="spline"/>
+        <part node="rightArm"     startTime="1.0" endTime="2.0" startRot="0 0 64" endRot="0 0 0" tangentType="spline"/>
+        <part node="rightArmPart"     startTime="1.0" endTime="2.0" startRot="0 0 -64" endRot="0 0 0" tangentType="spline"/>
+
+        <sound template="defaultHydraulicSound" startTime="0.01" endTime="1"    volumeScale="1"   pitchScale="1.5"/>
+        <sound template="defaultHydraulicSound" startTime="1"    endTime="1.99" volumeScale="1"   pitchScale="1.3"/>
+        <sound template="clackVar6"             startTime="1"    direction="1"  volumeScale="1"   pitchScale="0.8"/>
+        <sound template="sheetImp05"            startTime="1"    direction="1"  volumeScale="0.7" pitchScale="0.8"/>
+        <sound template="sheetImp01"            startTime="1.99" direction="1"  volumeScale="0.7" pitchScale="0.8"/>
+        <sound template="clackVar6"             startTime="1.99" direction="1"  volumeScale="1.2" pitchScale="0.7"/>
+        <sound template="sheetImp02"            startTime="0.01" direction="-1" volumeScale="1.2" pitchScale="1.6"/>
+        <sound template="clackVar6"             startTime="0.01" direction="-1" volumeScale="0.9" pitchScale="0.7"/>
+        <sound template="clackVar6"             startTime="1"    direction="-1" volumeScale="0.7" pitchScale="0.5"/>
+        <sound template="sheetImp01"            startTime="1"    direction="-1" volumeScale="0.7" pitchScale="0.8"/>
+    </animation>
+</animations>
+
+
+<tensionBelts>
+    <tensionBeltsConfigurations>
+        <tensionBeltsConfiguration>
+        </tensionBeltsConfiguration>
+        <tensionBeltsConfiguration>
+            <tensionBelts linkNode="tensionBelts" jointNode="pwo24_main_component1" maxEdgeLength="0.1" geometryBias="0.01" ratchetPosition="0.2" defaultOffset="0.1" defaultOffsetSide="0.1" defaultHeight="4" activationTrigger="beltActivationTrigger">
+                <tensionBelt startNode="startPoint01" endNode="startPoint01End" offsetLeft="0.2" />
+                <tensionBelt startNode="startPoint02" endNode="startPoint02End" />
+                <tensionBelt startNode="startPoint03" endNode="startPoint03End" />
+                <tensionBelt startNode="startPoint04" endNode="startPoint04End" />
+                <tensionBelt startNode="startPoint05" endNode="startPoint05End" />
+                <tensionBelt startNode="startPoint06" endNode="startPoint06End" />
+                <tensionBelt startNode="startPoint07" endNode="startPoint07End" />
+                <tensionBelt startNode="startPoint08" endNode="startPoint08End" offsetRight="0.2"/>
+                <sounds>
+                    <addBelt    template="beltOpen" />
+                    <removeBelt template="beltClose" />
+                </sounds>
+            </tensionBelts>
+        </tensionBeltsConfiguration>
+    </tensionBeltsConfigurations>
+</tensionBelts>

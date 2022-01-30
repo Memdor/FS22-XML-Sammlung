@@ -1,0 +1,57 @@
+
+	newfilltypes.xml
+
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../shared/xml/schema/fillTypes.xsd">
+	
+	<materialholders>
+        <materialholder filename="fillType/fillPlane_materialHolder.i3d" />
+        <materialholder filename="fillType/effect_materialHolder.i3d" />
+        <materialholder filename="fillType/particle_materialHolder.i3d" />
+    </materialholders>
+	
+	<fillTypes>
+		<fillType name="CORNDRYER" title="Suszona kukurydza" showOnPriceTable="true">
+			<physics massPerLiter="0.60" maxPhysicalSurfaceAngle="38" />
+			<image hud="fillType/cornDryer_hud.dds" hudSmall="fillType/cornDryer_hud_small.dds" />
+			<pallet     filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+            <textures   diffuse ="$data/fillPlanes/maize_diffuse.png"
+                        normal  ="$data/fillPlanes/maize_normal.png"
+                        specular="$data/fillPlanes/maize_specular.png"
+                        distance="$data/fillPlanes/distance/maizeDistance_diffuse.png" />
+			<economy pricePerLiter="0.603">
+				<factors>
+					<factor period="1"  value="1.00" />
+					<factor period="2"  value="1.00" />
+					<factor period="3"  value="1.00" />
+					<factor period="4"  value="1.00" />
+					<factor period="5"  value="1.00" />
+					<factor period="6"  value="1.00" />
+					<factor period="7"  value="1.00" />
+					<factor period="8"  value="1.00" />
+					<factor period="9"  value="1.00" />
+					<factor period="10" value="1.00" />
+					<factor period="11" value="1.00" />
+					<factor period="12" value="1.00" />
+				</factors>
+			</economy>
+		</fillType>		
+	</fillTypes>
+    <fillTypeCategories>
+		<fillTypeCategory name="BULK">CORNDRYER</fillTypeCategory>
+		<fillTypeCategory name="TRAINWAGON">CORNDRYER</fillTypeCategory>
+		<fillTypeCategory name="FARMSILO">CORNDRYER</fillTypeCategory>		
+    </fillTypeCategories>
+    <fillTypeSounds>
+        <fillTypeSound fillTypes="CORNDRYER">
+            <sound template="grainLargeFill"/>
+        </fillTypeSound>
+		
+    </fillTypeSounds>
+	<additionalFiles>
+        <additionalFile filename="fillType/fillPlane_materialHolder.i3d" />
+		<additionalFile filename="fillType/effect_materialHolder.i3d" />
+		<additionalFile filename="fillType/particle_materialHolder.i3d" />
+    </additionalFiles>
+</map>
+

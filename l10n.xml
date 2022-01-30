@@ -1,0 +1,10 @@
+    <l10n>
+		<text name="function_PalletAutoload_Trailer">  <en>Trailer with autoload for different pallets.</en>  <de>Anhänger mit Autoload für verschiedene Paletten.</de>  <fr>Remorque avec autoload pour différentes palettes.</fr>  <it>Rimorchio con autocarico per vari pallet.</it>  </text>
+		<text name="type_PalletAutoload_Trailer">  <en>Pallet Autoload</en>  <de>Paletten Autoloader</de>  <fr>Autochargeur de palettes</fr>  <it>Caricatore automatico di pallet</it>  </text>
+		<text name="unit_PalletAutoload_Trailer">  <en>Pallets</en>  <de>Paletten</de>  <fr>Palettes</fr>  <it>Pallets</it>  </text>
+		<text name="configuration_aPalletAutoloader_PWO">  <en>Maximum payload</en>  <de>Maximale Zuladdung</de>  <fr>Charge maximale</fr>  <it>Carico utile massimo</it>  </text>
+		<text name="configuration_Pallet_22">  <en>22 Euro pallets</en>  <de>22 Euro-Paletten</de>  <fr>22 palettes Euro</fr>  <it>22 Euro pallet</it>  </text>
+		<text name="configuration_Pallet_44">  <en>44 Euro pallets</en>  <de>44 Euro-Paletten</de>  <fr>44 palettes Euro</fr>  <it>44 Euro pallet</it>  </text>
+		<text name="configuration_PWO_24_Autoload">  <en>Autoloader</en>  <de>Autolader</de>  <fr>Chargeur de voiture</fr>  <it>Caricatore automatico</it>  </text>
+		<text name="configuration_PWO_24_Autoload2">  <en>Autoloader with grid</en>  <de>Autolader mit Gitter</de>  <fr>Chargeur de voiture avec grille</fr>  <it>Caricabatterie per auto con griglia</it>  </text>
+    </l10n>

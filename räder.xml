@@ -1,0 +1,33 @@
+<wheelConfiguration name="$l10n_configuration_streetWheels" price="0" brand="LIZARD">
+                <wheels autoRotateBackSpeed="1.7">
+                    <wheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" configId="truckFront" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="3.3" repr="0>0|1|3|0|0|0" driveNode="0>0|1|3|0|0|0|0|0" forcePointRatio="0.2" initialCompression="30" suspTravel="0.22" spring="180" damper="40" maxLatStiffness="350"/>
+                    </wheel>
+                    <wheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" configId="truckFront" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="3.3" repr="0>0|1|3|0|1|0" driveNode="0>0|1|3|0|1|0|0|0" forcePointRatio="0.2" initialCompression="30" suspTravel="0.22" spring="180" damper="40" maxLatStiffness="350"/>
+                    </wheel>
+                    <wheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" configId="dual" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.6" repr="0>0|1|3|1|0" forcePointRatio="0.3" initialCompression="10" suspTravel="0.22" spring="180" damper="40" maxLatStiffness="350"/>
+                        <additionalWheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" isLeft="true" configId="dualConnector" offset="0.08" hasTireTracks="true"/>
+                    </wheel>
+                    <wheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.6" repr="0>0|1|3|1|1" forcePointRatio="0.3" initialCompression="10" suspTravel="0.22" spring="180" damper="40" maxLatStiffness="350"/>
+<wheelConfiguration name="$l10n_configuration_streetWheels" price="0" brand="LIZARD">
+                <wheels autoRotateBackSpeed="1.7">
+                    <wheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" configId="truckFront" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="3.3" repr="0>0|1|3|0|0|0" driveNode="0>0|1|3|0|0|0|0|0" forcePointRatio="0.2" initialCompression="30" suspTravel="0.22" spring="180" damper="40" maxLatStiffness="350"/>
+                    </wheel>
+                    <wheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" configId="truckFront" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="3.3" repr="0>0|1|3|0|1|0" driveNode="0>0|1|3|0|1|0|0|0" forcePointRatio="0.2" initialCompression="30" suspTravel="0.22" spring="180" damper="40" maxLatStiffness="350"/>
+                    </wheel>
+                    <wheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" configId="dual" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.6" repr="0>0|1|3|1|0" forcePointRatio="0.3" initialCompression="10" suspTravel="0.22" spring="180" damper="40" maxLatStiffness="350"/>
+                        <additionalWheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" isLeft="true" configId="dualConnector" offset="0.08" hasTireTracks="true"/>
+                    </wheel>
+                    <wheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.6" repr="0>0|1|3|1|1" forcePointRatio="0.3" initialCompression="10" suspTravel="0.22" spring="180" damper="40" maxLatStiffness="350"/>
+                        <additionalWheel filename="dynaloadparts/Raeder/tgsstreetWheels.xml" isLeft="false" configId="dualConnector" offset="0.08" hasTireTracks="true"/>
+                    </wheel>
+                </wheels>
+                
+                <!-- move dual wheels -->

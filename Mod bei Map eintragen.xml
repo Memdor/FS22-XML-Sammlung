@@ -1,0 +1,17 @@
+
+<!-- modDesc -->
+
+	<storeItems>
+		<storeItem xmlFilename="maps/placeables/cerealFactory_MD/cerealFactory.xml"/>
+	</storeItems>
+	
+<!-- mod xml -->
+
+    <base>
+        <filename>maps/placeables/cerealFactory_MD/cerealFactory.i3d</filename>
+    </base>
+
+
+<!-- maps/MapUS/placeables.xml -->
+
+<placeable mapBoundId="sellingStationCerealFactory"    filename="$moddir$FS22_MapUS_MD/maps/placeables/cerealFactory_MD/cerealFactory.xml"           position="284.5 88.125 57.5"    rotation="0 90 0" />

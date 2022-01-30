@@ -1,0 +1,37 @@
+<decoFoliages>
+    <decoFoliage layerName="decoFoliage" startChannel="0" numChannels="4" mowable="true"/>
+    <decoFoliage layerName="decoForest" startChannel="0" numChannels="4" mowable="true"/>
+    <decoFoliage layerName="decoBush" startChannel="0" numChannels="4" />
+    <decoFoliage layerName="groundFoliage" startChannel="0" numChannels="4" />
+  
+    <mapping name="grassShort" layerName="decoFoliage" state="1" />
+   </decoFoliages>
+  
+   <paintableFoliages>
+    <paintableFoliage layerName="grass" startChannel="0" numStateChannels="4" />
+    <paintableFoliage layerName="meadow" startChannel="0" numStateChannels="4" />
+    <paintableFoliage layerName="decoBush" startChannel="0" numStateChannels="4" />
+    <paintableFoliage layerName="decoFoliage" startChannel="0" numStateChannels="4" />
+   </paintableFoliages>
+  
+   <groundTypeMappings>
+    <groundTypeMapping type="dirt"           title="$l10n_groundType_dirt" layer="DIRT" />
+    <groundTypeMapping type="asphalt"        title="$l10n_groundType_asphalt" layer="ASPHALT" />
+    <groundTypeMapping type="gravel"         title="$l10n_groundType_gravel" layer="GRAVEL" />
+    <groundTypeMapping type="grass"          title="$l10n_groundType_grass" layer="GRASS" />
+    <groundTypeMapping type="animalMud"      title="$l10n_groundType_animalMud" layer="MUD_ANIMAL" />
+    <groundTypeMapping type="concrete"       title="$l10n_groundType_concrete" layer="CONCRETE" />
+    <groundTypeMapping type="forestGround"   title="$l10n_groundType_forestGround" layer="FOREST_NEEDLES" />
+    <groundTypeMapping type="grass_dry"      title="$l10n_groundType_grassDry" layer="GRASS_DIRT" />
+    <groundTypeMapping type="rock"           title="$l10n_groundType_rock" layer="ROCK" />
+    <groundTypeMapping type="rock_granite"   title="$l10n_groundType_rockGranite" layer="ROCK_DARK" />
+    <groundTypeMapping type="concrete_tiles"   title="$l10n_groundType_concrete_tiles" layer="CONCRETE_TILES" />
+    <groundTypeMapping type="concrete_bricks"   title="$l10n_groundType_concrete_bricks" layer="CONCRETE_BRICKS" />
+    <groundTypeMapping type="asphalt_rough"   title="$l10n_groundType_asphalt_rough" layer="ASPHALT_ROUGH" />
+    <groundTypeMapping type="cobblestone"   title="$l10n_groundType_cobblestone" layer="COBBLESTONE" />
+    <groundTypeMapping type="dirt_dark"   title="$l10n_groundType_dirk_dark" layer="DIRT_DARK" />
+    <groundTypeMapping type="forest_leaves"   title="$l10n_groundType_forest_leaves" layer="FOREST_LEAVES" />
+    <groundTypeMapping type="mud_river"   title="$l10n_groundType_mud_river" layer="MUD_RIVER" />
+    
+   </groundTypeMappings>
+  
