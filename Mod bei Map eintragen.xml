@@ -1,17 +1,44 @@
+<Anleitung>
 
-<!-- modDesc -->
+	<!-- modDesc -->
 
-	<storeItems>
-		<storeItem xmlFilename="maps/placeables/cerealFactory_MD/cerealFactory.xml"/>
+	<!-- Nur wenn der Mod in dem Map Ordner liegt! z.B. maps/placeables/ -->
+	<storeItems>				<!-- Pfad ausgehend immer vom Ordner mit modDesc. -->
+		<storeItem xmlFilename="maps/placeables/cerealFactory_MD/cerealFactory.xml"/> 
 	</storeItems>
+	<!-- Bei Fremdmod oder Mod aus dem Spieleordner muss hier nichts eingetragen werden -->
 	
-<!-- mod xml -->
-
+	
+	<!-- in mod xml den Pfad zur i3d nicht vergessen.-->
     <base>
         <filename>maps/placeables/cerealFactory_MD/cerealFactory.i3d</filename>
     </base>
+	<!-- Auch hier nur, wenn der Mod im Map Ordner liegt. -->
 
 
-<!-- maps/MapUS/placeables.xml -->
+	<!-- Eintragung in placeables.xml der Map-->
+	
+	<!-- wenn der Mod in dem Map Ordner liegt! z.B. maps/placeables/ -->
+	<placeable mapBoundId="sellingStationCerealFactory" filename="$moddir$FS22_MapUS_MD/maps/placeables/cerealFactory_MD/cerealFactory.xml" position="284.5 88.125 57.5" rotation="0 90 0" />
 
-<placeable mapBoundId="sellingStationCerealFactory"    filename="$moddir$FS22_MapUS_MD/maps/placeables/cerealFactory_MD/cerealFactory.xml"           position="284.5 88.125 57.5"    rotation="0 90 0" />
+	<!-- Fremdmod, als ein Mod, der im Modordner des Spiels liegt. -->
+    <placeable mapBoundId="HalleSolarPanels1" 						filename="$moddir$FS22_HalleSolarPanels/halleSolarPanels.xml" position="235 85.325 167" rotation="0 0 0" />
+    <placeable mapBoundId="HalleSolarPanels2" 						filename="$moddir$FS22_HalleSolarPanels/halleSolarPanels.xml" position="166 85.186 205" rotation="0 0 0" />
+    <placeable mapBoundId="multifruitstation" name="HOF Multi Silo" filename="$moddir$FS22_Multifruit_Buying_Station/xmls/multifruitstation.xml" position="343.71887207031 85.509727478027 205.5866394043" rotation="0 238.658065752 0" />
+
+	<!-- Mod aus dem Spieleordner -->
+    <placeable mapBoundId="aux_cowFarm" filename="data/placeables/mapUS/farmBuildings/auxiliaryFarms/cowFarm.xml" position="-761 85 925" rotation="0 0 0" sinceVersion="2" />
+
+	<!-- soll es von anfang an zur Farm gehören, am Ende farmId="1" defaultFarmProperty="true" eintragen: -->
+	<placeable mapBoundId="sellingStationCerealFactory" filename="$moddir$FS22_MapUS_MD/maps/placeables/cerealFactory_MD/cerealFactory.xml" position="284.5 88.125 57.5" rotation="0 90 0" farmId="1" defaultFarmProperty="true" />
+
+	<!-- Zaun -->
+	<placeable mapBoundId="fences1" 							filename="data/placeables/lizard/fencesResidential/alpsFence02/fencesResidentialAlpsLevel02Singleton.xml" position="100 85.984 0" rotation="0 0 0" farmId="1">
+        <fence>
+            <segments>
+                <segment start="296.32473754883 185.4421081543" end="296.65386962891 196.40209960938"/>
+            </segments>
+        </fence>
+    </placeable>
+
+</Anleitung>
