@@ -71,8 +71,7 @@ Keine Leerzeichen oder Tabs an den Anfang der Zeile setzen!]]>
     </jointTypes>
 
     <materialHolders>
-        <!-- A material holder holds just the materials attached to a shape to be re-used by systems
-        such as particle effects -->
+        <!-- Ein Materialhalter enthält nur die an einer Form befestigten Materialien, die von Systemen wie Partikeleffekten wiederverwendet werden können. -->
         <materialHolder filename="myMaterialHolder.i3d" />
     </materialHolders>
 
