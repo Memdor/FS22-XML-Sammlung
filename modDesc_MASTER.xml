@@ -98,6 +98,19 @@ Changelog V 1.0.9.0
 			<specialization name="animationHandTool" />
 			<specialization name="customMovingSounds" />
 			<specialization name="customStrawSheaves" />
+			<specialization name="workArea" />
+			<specialization name="attachable" />
+			<specialization name="animatedVehicle" />
+			<specialization name="mouseControlsVehicle" />
+			<specialization name="cylindered" />
+			<specialization name="fillable" />
+			<specialization name="turnOnVehicle" />
+			<specialization name="powerConsumer" />
+			<specialization name="sprayer" />
+			<specialization name="foldable" />
+			<specialization name="washable" />
+			<specialization name="mountable" />
+			<specialization name="Animation" />
         </type>
     </vehicleTypes>
 
