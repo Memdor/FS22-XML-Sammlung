@@ -82,10 +82,24 @@ Changelog V 1.0.9.0
         <sourceFile filename="scripts/specialCode.lua" />
     </extraSourceFiles>
 
+	<sellingStation> 
+        <fillType filename="extras/maps_VK1.xml" />
+     </sellingStation> 
+
 	<specializations>
         <specialization name="animationHandTool" className="AnimationHandTool" filename="AnimationHandTool.lua" />
 		<specialization name="customStrawSheaves" className="CustomStrawSheaves" filename="CustomStrawSheaves.lua" />
     </specializations>
+
+	<registerSpecializations>
+		<registerSpecialization name="autoTurnOffTurnLights" className="AutoTurnOffTurnLights" filename="AutoTurnOffTurnLights.lua" searchedSpecializations="drivable"/>
+	</registerSpecializations>
+
+	<placeableTypes>
+		<type name="SiloWithPallet" parent="silo" filename="$dataS/scripts/placeables/Placeable.lua">
+			<specialization name="aPalletSilo"/>
+		</type>
+	</placeableTypes>	
 
     <vehicleTypes>
         <type name="PalletAutoLoaderCarTrailer" parent="trailer" filename="$dataS/scripts/vehicles/Vehicle.lua">
@@ -111,18 +125,10 @@ Changelog V 1.0.9.0
 			<specialization name="washable" />
 			<specialization name="mountable" />
 			<specialization name="Animation" />
+            <specialization name="fillTriggerVehicle"/>
+            <specialization name="waterTrailer"/>
         </type>
     </vehicleTypes>
-
-	<registerSpecializations>
-		<registerSpecialization name="autoTurnOffTurnLights" className="AutoTurnOffTurnLights" filename="AutoTurnOffTurnLights.lua" searchedSpecializations="drivable"/>
-	</registerSpecializations>
-
-	<placeableTypes>
-		<type name="SiloWithPallet" parent="silo" filename="$dataS/scripts/placeables/Placeable.lua">
-			<specialization name="aPalletSilo"/>
-		</type>
-	</placeableTypes>	
 
 	<newcategory name="MEMDOR" title="Memdor" type="VEHICLE" img="texture/memdor.dds" />
 

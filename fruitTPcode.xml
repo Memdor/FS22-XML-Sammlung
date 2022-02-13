@@ -1,0 +1,27 @@
+This file have the codes for add mapHeightDensitys on Giants Editor.
+
+
+
+mapHeightDensitys id / type of fruittype
+
+05          COAL  
+15	 	    TAILINGS  
+134			CONCRETE 
+125			DIRT        
+25		    Limestone  
+125		    GRAVEL   
+01234		Stones	 
+0125		SAND	 
+45          LITHIUMORE
+045         CLAY     
+0135        Riversand
+035         Toutvenant
+235         Riversandp
+5           Aspahlt
+35          Iron
+01235       Stonepowder
+1235        Tires
+135         Cement
+015         Concrete
+
+farmland id /  info channel

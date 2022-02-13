@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<fonts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../shared/xml/schema/fontMaterials.xsd">
+    <font name="GENERIC" filename="$data/shared/alphabet/fontMaterialHolder.i3d" node="0|0|0" noNormalNode="0|0|1" characterShape="1|0">
+        <spacing x="0.075" y="0.055" charToChar="0.05"/>
+
+        <character uvIndex="0"  value="0"     type="numerical"    spacingX="0.165"/>
+        <character uvIndex="1"  value="1"     type="numerical"    spacingX="0.165"/>
+        <character uvIndex="2"  value="2"     type="numerical"    spacingX="0.165"/>
+        <character uvIndex="3"  value="3"     type="numerical"    spacingX="0.165"/>
+        <character uvIndex="4"  value="4"     type="numerical"    spacingX="0.165"/>
+        <character uvIndex="5"  value="5"     type="numerical"    spacingX="0.165"/>
+        <character uvIndex="6"  value="6"     type="numerical"    spacingX="0.165"/>
+        <character uvIndex="7"  value="7"     type="numerical"    spacingX="0.165"/>
+        <character uvIndex="8"  value="8"     type="numerical"    spacingX="0.165"/>
+        <character uvIndex="9"  value="9"     type="numerical"    spacingX="0.165"/>
+        <character uvIndex="10" value="-"     type="special"      spacingX="0.280"/>
+        <character uvIndex="11" value="A"     type="alphabetical" spacingX="0.085"/>
+        <character uvIndex="12" value="B"     type="alphabetical" spacingX="0.160"/>
+        <character uvIndex="13" value="C"     type="alphabetical" spacingX="0.120"/>
+        <character uvIndex="14" value="D"     type="alphabetical" spacingX="0.079"/>
+        <character uvIndex="15" value="E"     type="alphabetical" spacingX="0.210"/>
+        <character uvIndex="16" value="F"     type="alphabetical" spacingX="0.215"/>
+        <character uvIndex="17" value="G"     type="alphabetical" spacingX="0.085"/>
+        <character uvIndex="18" value="H"     type="alphabetical" spacingX="0.120"/>
+        <character uvIndex="19" value="I"     type="alphabetical" spacingX="0.330"/>
+        <character uvIndex="20" value="J"     type="alphabetical" spacingX="0.260"/>
+        <character uvIndex="21" value="K"     type="alphabetical" spacingX="0.130"/>
+        <character uvIndex="22" value="L"     type="alphabetical" spacingX="0.210"/>
+        <character uvIndex="23" value="M"     type="alphabetical" spacingX="0.030"/>
+        <character uvIndex="24" value="N"     type="alphabetical" spacingX="0.110"/>
+        <character uvIndex="25" value="O"     type="alphabetical" spacingX="0.050"/>
+        <character uvIndex="26" value="P"     type="alphabetical" spacingX="0.170"/>
+        <character uvIndex="27" value="Q"     type="alphabetical" spacingX="0.070"/>
+        <character uvIndex="28" value="R"     type="alphabetical" spacingX="0.190"/>
+        <character uvIndex="29" value="S"     type="alphabetical" spacingX="0.190"/>
+        <character uvIndex="30" value="T"     type="alphabetical" spacingX="0.120"/>
+        <character uvIndex="31" value="U"     type="alphabetical" spacingX="0.110"/>
+        <character uvIndex="32" value="V"     type="alphabetical" spacingX="0.090"/>
+        <character uvIndex="33" value="W"     type="alphabetical" spacingX="0.030"/>
+        <character uvIndex="34" value="X"     type="alphabetical" spacingX="0.100"/>
+        <character uvIndex="35" value="Y"     type="alphabetical" spacingX="0.110"/>
+        <character uvIndex="36" value="Z"     type="alphabetical" spacingX="0.120"/>
+        <character uvIndex="37" value=","     type="special"      spacingX="0.36" offsetY="-0.175"/>
+        <character uvIndex="38" value="."     type="special"      spacingX="0.36" />
+        <character uvIndex="39" value=":"     type="special"      spacingX="0.36" />
+        <character uvIndex="40" value="!"     type="special"      spacingX="0.36" />
+        <character uvIndex="41" value="?"     type="special"      spacingX="0.26" />
+        <character uvIndex="42" value="%"     type="special"      spacingX="0.02" />
+        <character uvIndex="43" value="&amp;" type="special"      spacingX="0.08"/>
+        <character uvIndex="44" value="#"     type="special"      spacingX="0.13"/>
+        <character uvIndex="45" value="+"     type="special"      spacingX="0.11"/>
+        <character uvIndex="46" value="a"     type="alphabetical" spacingX="0.210"/>
+        <character uvIndex="47" value="b"     type="alphabetical" spacingX="0.140"/>
+        <character uvIndex="48" value="c"     type="alphabetical" spacingX="0.180"/>
+        <character uvIndex="49" value="d"     type="alphabetical" spacingX="0.140"/>
+        <character uvIndex="50" value="e"     type="alphabetical" spacingX="0.170"/>
+        <character uvIndex="51" value="f"     type="alphabetical" spacingX="0.260" spacingY="0"/>
+        <character uvIndex="52" value="g"     type="alphabetical" spacingX="0.160" spacingY="0" offsetY="-0.35"/>
+        <character uvIndex="53" value="h"     type="alphabetical" spacingX="0.180"/>
+        <character uvIndex="54" value="i"     type="alphabetical" spacingX="0.400"/>
+        <character uvIndex="55" value="j"     type="alphabetical" spacingX="0.260" spacingY="0" offsetY="-0.35"/>
+        <character uvIndex="56" value="k"     type="alphabetical" spacingX="0.200"/>
+        <character uvIndex="57" value="l"     type="alphabetical" spacingX="0.400"/>
+        <character uvIndex="58" value="m"     type="alphabetical" spacingX="0.000"/>
+        <character uvIndex="59" value="n"     type="alphabetical" spacingX="0.170"/>
+        <character uvIndex="60" value="o"     type="alphabetical" spacingX="0.140"/>
+        <character uvIndex="61" value="p"     type="alphabetical" spacingX="0.150" spacingY="0" offsetY="-0.28"/>
+        <character uvIndex="62" value="q"     type="alphabetical" spacingX="0.120" spacingY="0" offsetY="-0.28"/>
+        <character uvIndex="63" value="r"     type="alphabetical" spacingX="0.280"/>
+        <character uvIndex="64" value="s"     type="alphabetical" spacingX="0.250"/>
+        <character uvIndex="65" value="t"     type="alphabetical" spacingX="0.240"/>
+        <character uvIndex="66" value="u"     type="alphabetical" spacingX="0.185"/>
+        <character uvIndex="67" value="v"     type="alphabetical" spacingX="0.160"/>
+        <character uvIndex="68" value="w"     type="alphabetical" spacingX="0.010"/>
+        <character uvIndex="69" value="x"     type="alphabetical" spacingX="0.170"/>
+        <character uvIndex="70" value="y"     type="alphabetical" spacingX="0.160" offsetY="-0.29"/>
+        <character uvIndex="71" value="z"     type="alphabetical" spacingX="0.195"/>
+    </font>
+    <font name="GENERIC_BOLD" filename="$data/shared/alphabet/fontMaterialHolder.i3d" node="0|1|0" noNormalNode="0|1|1" characterShape="1|0">
+        <spacing x="0.035" y="0.055"/>
+
+        <character uvIndex="0"  value="0"     type="numerical"    spacingX="0.115"/>
+        <character uvIndex="1"  value="1"     type="numerical"    spacingX="0.115"/>
+        <character uvIndex="2"  value="2"     type="numerical"    spacingX="0.115"/>
+        <character uvIndex="3"  value="3"     type="numerical"    spacingX="0.115"/>
+        <character uvIndex="4"  value="4"     type="numerical"    spacingX="0.115"/>
+        <character uvIndex="5"  value="5"     type="numerical"    spacingX="0.115"/>
+        <character uvIndex="6"  value="6"     type="numerical"    spacingX="0.115"/>
+        <character uvIndex="7"  value="7"     type="numerical"    spacingX="0.115"/>
+        <character uvIndex="8"  value="8"     type="numerical"    spacingX="0.115"/>
+        <character uvIndex="9"  value="9"     type="numerical"    spacingX="0.115"/>
+        <character uvIndex="10" value="-"     type="special"      spacingX="0.280"/>
+        <character uvIndex="11" value="A"     type="alphabetical" spacingX="0.040"/>
+        <character uvIndex="12" value="B"     type="alphabetical" spacingX="0.105"/>
+        <character uvIndex="13" value="C"     type="alphabetical" spacingX="0.095"/>
+        <character uvIndex="14" value="D"     type="alphabetical" spacingX="0.030"/>
+        <character uvIndex="15" value="E"     type="alphabetical" spacingX="0.160"/>
+        <character uvIndex="16" value="F"     type="alphabetical" spacingX="0.160"/>
+        <character uvIndex="17" value="G"     type="alphabetical" spacingX="0.040"/>
+        <character uvIndex="18" value="H"     type="alphabetical" spacingX="0.060"/>
+        <character uvIndex="19" value="I"     type="alphabetical" spacingX="0.330"/>
+        <character uvIndex="20" value="J"     type="alphabetical" spacingX="0.210"/>
+        <character uvIndex="21" value="K"     type="alphabetical" spacingX="0.060"/>
+        <character uvIndex="22" value="L"     type="alphabetical" spacingX="0.220"/>
+        <character uvIndex="23" value="M"     type="alphabetical" spacingX="0.030"/>
+        <character uvIndex="24" value="N"     type="alphabetical" spacingX="0.060"/>
+        <character uvIndex="25" value="O"     type="alphabetical" spacingX="0.015"/>
+        <character uvIndex="26" value="P"     type="alphabetical" spacingX="0.125"/>
+        <character uvIndex="27" value="Q"     type="alphabetical" spacingX="0.050"/>
+        <character uvIndex="28" value="R"     type="alphabetical" spacingX="0.110"/>
+        <character uvIndex="29" value="S"     type="alphabetical" spacingX="0.150"/>
+        <character uvIndex="30" value="T"     type="alphabetical" spacingX="0.100"/>
+        <character uvIndex="31" value="U"     type="alphabetical" spacingX="0.070"/>
+        <character uvIndex="32" value="V"     type="alphabetical" spacingX="0.040"/>
+        <character uvIndex="33" value="W"     type="alphabetical" spacingX="0.010"/>
+        <character uvIndex="34" value="X"     type="alphabetical" spacingX="0.070"/>
+        <character uvIndex="35" value="Y"     type="alphabetical" spacingX="0.070"/>
+        <character uvIndex="36" value="Z"     type="alphabetical" spacingX="0.100"/>
+        <character uvIndex="37" value=","     type="special"      spacingX="0.330" offsetY="-0.175"/>
+        <character uvIndex="38" value="."     type="special"      spacingX="0.340" />
+        <character uvIndex="39" value=":"     type="special"      spacingX="0.355" />
+        <character uvIndex="40" value="!"     type="special"      spacingX="0.355" />
+        <character uvIndex="41" value="?"     type="special"      spacingX="0.220" />
+        <character uvIndex="42" value="%"     type="special"      spacingX="0.015" />
+        <character uvIndex="43" value="&amp;" type="special"      spacingX="0.030"/>
+        <character uvIndex="44" value="#"     type="special"      spacingX="0.100"/>
+        <character uvIndex="45" value="+"     type="special"      spacingX="0.100"/>
+        <character uvIndex="46" value="a"     type="alphabetical" spacingX="0.155"/>
+        <character uvIndex="47" value="b"     type="alphabetical" spacingX="0.105"/>
+        <character uvIndex="48" value="c"     type="alphabetical" spacingX="0.175"/>
+        <character uvIndex="49" value="d"     type="alphabetical" spacingX="0.110"/>
+        <character uvIndex="50" value="e"     type="alphabetical" spacingX="0.135"/>
+        <character uvIndex="51" value="f"     type="alphabetical" spacingX="0.245" spacingY="0"/>
+        <character uvIndex="52" value="g"     type="alphabetical" spacingX="0.120" spacingY="0" offsetY="-0.35"/>
+        <character uvIndex="53" value="h"     type="alphabetical" spacingX="0.150"/>
+        <character uvIndex="54" value="i"     type="alphabetical" spacingX="0.370"/>
+        <character uvIndex="55" value="j"     type="alphabetical" spacingX="0.260" spacingY="0" offsetY="-0.35"/>
+        <character uvIndex="56" value="k"     type="alphabetical" spacingX="0.120"/>
+        <character uvIndex="57" value="l"     type="alphabetical" spacingX="0.380"/>
+        <character uvIndex="58" value="m"     type="alphabetical" spacingX="0.000"/>
+        <character uvIndex="59" value="n"     type="alphabetical" spacingX="0.140"/>
+        <character uvIndex="60" value="o"     type="alphabetical" spacingX="0.115"/>
+        <character uvIndex="61" value="p"     type="alphabetical" spacingX="0.120" spacingY="0" offsetY="-0.28"/>
+        <character uvIndex="62" value="q"     type="alphabetical" spacingX="0.105" spacingY="0" offsetY="-0.28"/>
+        <character uvIndex="63" value="r"     type="alphabetical" spacingX="0.270"/>
+        <character uvIndex="64" value="s"     type="alphabetical" spacingX="0.220"/>
+        <character uvIndex="65" value="t"     type="alphabetical" spacingX="0.230"/>
+        <character uvIndex="66" value="u"     type="alphabetical" spacingX="0.140"/>
+        <character uvIndex="67" value="v"     type="alphabetical" spacingX="0.120"/>
+        <character uvIndex="68" value="w"     type="alphabetical" spacingX="0.000"/>
+        <character uvIndex="69" value="x"     type="alphabetical" spacingX="0.120"/>
+        <character uvIndex="70" value="y"     type="alphabetical" spacingX="0.120" offsetY="-0.29"/>
+        <character uvIndex="71" value="z"     type="alphabetical" spacingX="0.175"/>
+    </font>
+    <font name="DIGIT" filename="$data/shared/alphabet/fontMaterialHolder.i3d" node="0|2|0" noNormalNode="0|2|1" characterShape="1|0">
+        <spacing x="0.19" y="0.052"/>
+
+        <character uvIndex="0"  value="0"     type="numerical"/>
+        <character uvIndex="1"  value="1"     type="numerical"/>
+        <character uvIndex="2"  value="2"     type="numerical"/>
+        <character uvIndex="3"  value="3"     type="numerical"/>
+        <character uvIndex="4"  value="4"     type="numerical"/>
+        <character uvIndex="5"  value="5"     type="numerical"/>
+        <character uvIndex="6"  value="6"     type="numerical"/>
+        <character uvIndex="7"  value="7"     type="numerical"/>
+        <character uvIndex="8"  value="8"     type="numerical"/>
+        <character uvIndex="9"  value="9"     type="numerical"/>
+        <character uvIndex="10" value="-"     type="special"/>
+        <character uvIndex="11" value="A"     type="alphabetical"/>
+        <character uvIndex="12" value="B"     type="alphabetical"/>
+        <character uvIndex="13" value="C"     type="alphabetical"/>
+        <character uvIndex="14" value="D"     type="alphabetical"/>
+        <character uvIndex="15" value="E"     type="alphabetical"/>
+        <character uvIndex="16" value="F"     type="alphabetical"/>
+        <character uvIndex="17" value="G"     type="alphabetical"/>
+        <character uvIndex="18" value="H"     type="alphabetical"/>
+        <character uvIndex="19" value="I"     type="alphabetical"/>
+        <character uvIndex="20" value="J"     type="alphabetical"/>
+        <character uvIndex="21" value="K"     type="alphabetical"/>
+        <character uvIndex="22" value="L"     type="alphabetical"/>
+        <character uvIndex="23" value="M"     type="alphabetical"/>
+        <character uvIndex="24" value="N"     type="alphabetical"/>
+        <character uvIndex="25" value="O"     type="alphabetical"/>
+        <character uvIndex="26" value="P"     type="alphabetical"/>
+        <character uvIndex="27" value="Q"     type="alphabetical"/>
+        <character uvIndex="28" value="R"     type="alphabetical"/>
+        <character uvIndex="29" value="S"     type="alphabetical"/>
+        <character uvIndex="30" value="T"     type="alphabetical"/>
+        <character uvIndex="31" value="U"     type="alphabetical"/>
+        <character uvIndex="32" value="V"     type="alphabetical"/>
+        <character uvIndex="33" value="W"     type="alphabetical"/>
+        <character uvIndex="34" value="X"     type="alphabetical"/>
+        <character uvIndex="35" value="Y"     type="alphabetical"/>
+        <character uvIndex="36" value="Z"     type="alphabetical"/>
+        <character uvIndex="37" value=","     type="special"      spacingX="0.375" offsetY="-0.15"/>
+        <character uvIndex="38" value="."     type="special"      spacingX="0.375"/>
+        <character uvIndex="39" value=":"     type="special"      spacingX="0.375"/>
+        <character uvIndex="40" value="!"     type="special"      spacingX="0.375"/>
+        <character uvIndex="41" value="?"     type="special" />
+        <character uvIndex="42" value="%"     type="special"      spacingX="0.060"/>
+        <character uvIndex="43" value="&amp;" type="special"      spacingX="0.090"/>
+        <character uvIndex="44" value="#"     type="special"      spacingX="0.140"/>
+        <character uvIndex="45" value="+"     type="special"/>
+    </font>
+    <font name="DIGIT_BOLD" filename="$data/shared/alphabet/fontMaterialHolder.i3d" node="0|3|0" noNormalNode="0|3|1" characterShape="1|0">
+        <spacing x="0.174" y="0.052"/>
+
+        <character uvIndex="0"  value="0"     type="numerical"/>
+        <character uvIndex="1"  value="1"     type="numerical"/>
+        <character uvIndex="2"  value="2"     type="numerical"/>
+        <character uvIndex="3"  value="3"     type="numerical"/>
+        <character uvIndex="4"  value="4"     type="numerical"/>
+        <character uvIndex="5"  value="5"     type="numerical"/>
+        <character uvIndex="6"  value="6"     type="numerical"/>
+        <character uvIndex="7"  value="7"     type="numerical"/>
+        <character uvIndex="8"  value="8"     type="numerical"/>
+        <character uvIndex="9"  value="9"     type="numerical"/>
+        <character uvIndex="10" value="-"     type="special"/>
+        <character uvIndex="11" value="A"     type="alphabetical"/>
+        <character uvIndex="12" value="B"     type="alphabetical"/>
+        <character uvIndex="13" value="C"     type="alphabetical"/>
+        <character uvIndex="14" value="D"     type="alphabetical"/>
+        <character uvIndex="15" value="E"     type="alphabetical"/>
+        <character uvIndex="16" value="F"     type="alphabetical"/>
+        <character uvIndex="17" value="G"     type="alphabetical"/>
+        <character uvIndex="18" value="H"     type="alphabetical"/>
+        <character uvIndex="19" value="I"     type="alphabetical"/>
+        <character uvIndex="20" value="J"     type="alphabetical"/>
+        <character uvIndex="21" value="K"     type="alphabetical"/>
+        <character uvIndex="22" value="L"     type="alphabetical"/>
+        <character uvIndex="23" value="M"     type="alphabetical"/>
+        <character uvIndex="24" value="N"     type="alphabetical"/>
+        <character uvIndex="25" value="O"     type="alphabetical"/>
+        <character uvIndex="26" value="P"     type="alphabetical"/>
+        <character uvIndex="27" value="Q"     type="alphabetical"/>
+        <character uvIndex="28" value="R"     type="alphabetical"/>
+        <character uvIndex="29" value="S"     type="alphabetical"/>
+        <character uvIndex="30" value="T"     type="alphabetical"/>
+        <character uvIndex="31" value="U"     type="alphabetical"/>
+        <character uvIndex="32" value="V"     type="alphabetical"/>
+        <character uvIndex="33" value="W"     type="alphabetical"/>
+        <character uvIndex="34" value="X"     type="alphabetical"/>
+        <character uvIndex="35" value="Y"     type="alphabetical"/>
+        <character uvIndex="36" value="Z"     type="alphabetical"/>
+        <character uvIndex="37" value=","     type="special"      spacingX="0.375" offsetY="-0.15"/>
+        <character uvIndex="38" value="."     type="special"      spacingX="0.375"/>
+        <character uvIndex="39" value=":"     type="special"      spacingX="0.375"/>
+        <character uvIndex="40" value="!"     type="special"      spacingX="0.375"/>
+        <character uvIndex="41" value="?"     type="special" />
+        <character uvIndex="42" value="%"     type="special"      spacingX="0.060"/>
+        <character uvIndex="43" value="&amp;" type="special"      spacingX="0.090"/>
+        <character uvIndex="44" value="#"     type="special"      spacingX="0.140"/>
+        <character uvIndex="45" value="+"     type="special"/>
+    </font>
+    <font name="LICENSE_PLATE_DE" filename="$data/shared/alphabet/fontMaterialHolder.i3d" node="0|4|0" noNormalNode="0|4|1" characterShape="1|0">
+        <spacing x="0.165" y="0.06"/>
+
+        <character uvIndex="0"  value="0"     type="numerical"    spacingX="0.192"/>
+        <character uvIndex="1"  value="1"     type="numerical"    spacingX="0.192"/>
+        <character uvIndex="2"  value="2"     type="numerical"    spacingX="0.192"/>
+        <character uvIndex="3"  value="3"     type="numerical"    spacingX="0.192"/>
+        <character uvIndex="4"  value="4"     type="numerical"    spacingX="0.192"/>
+        <character uvIndex="5"  value="5"     type="numerical"    spacingX="0.192"/>
+        <character uvIndex="6"  value="6"     type="numerical"    spacingX="0.192"/>
+        <character uvIndex="7"  value="7"     type="numerical"    spacingX="0.192"/>
+        <character uvIndex="8"  value="8"     type="numerical"    spacingX="0.192"/>
+        <character uvIndex="9"  value="9"     type="numerical"    spacingX="0.192"/>
+        <character uvIndex="10" value="-"     type="special"      spacingX="0.300"/>
+        <character uvIndex="11" value="A"     type="alphabetical"/>
+        <character uvIndex="12" value="B"     type="alphabetical"/>
+        <character uvIndex="13" value="C"     type="alphabetical"/>
+        <character uvIndex="14" value="D"     type="alphabetical"/>
+        <character uvIndex="15" value="E"     type="alphabetical"/>
+        <character uvIndex="16" value="F"     type="alphabetical"/>
+        <character uvIndex="17" value="G"     type="alphabetical"/>
+        <character uvIndex="18" value="H"     type="alphabetical"/>
+        <character uvIndex="19" value="I"     type="alphabetical"/>
+        <character uvIndex="20" value="J"     type="alphabetical"/>
+        <character uvIndex="21" value="K"     type="alphabetical"/>
+        <character uvIndex="22" value="L"     type="alphabetical"/>
+        <character uvIndex="23" value="M"     type="alphabetical"/>
+        <character uvIndex="24" value="N"     type="alphabetical"/>
+        <character uvIndex="25" value="O"     type="alphabetical"/>
+        <character uvIndex="26" value="P"     type="alphabetical"/>
+        <character uvIndex="27" value="Q"     type="alphabetical"/>
+        <character uvIndex="28" value="R"     type="alphabetical"/>
+        <character uvIndex="29" value="S"     type="alphabetical"/>
+        <character uvIndex="30" value="T"     type="alphabetical"/>
+        <character uvIndex="31" value="U"     type="alphabetical"/>
+        <character uvIndex="32" value="V"     type="alphabetical"/>
+        <character uvIndex="33" value="W"     type="alphabetical"/>
+        <character uvIndex="34" value="X"     type="alphabetical"/>
+        <character uvIndex="35" value="Y"     type="alphabetical"/>
+        <character uvIndex="36" value="Z"     type="alphabetical"/>
+        <character uvIndex="37" value=","     type="special"      spacingX="0.420" offsetY="-0.15"/>
+        <character uvIndex="38" value="."     type="special"      spacingX="0.395"/>
+        <character uvIndex="39" value=":"     type="special"      spacingX="0.375"/>
+        <character uvIndex="40" value="!"     type="special"      spacingX="0.410"/>
+        <character uvIndex="41" value="?"     type="special"      spacingX="0.150"/>
+        <character uvIndex="42" value="%"     type="special"      spacingX="0.075"/>
+        <character uvIndex="43" value="&amp;" type="special"      spacingX="0.180"/>
+        <character uvIndex="44" value="#"     type="special"      spacingX="0.150"/>
+        <character uvIndex="45" value="+"     type="special"      spacingX="0.230"/>
+    </font>
+    <font name="LICENSE_PLATE_UK" filename="$data/shared/alphabet/fontMaterialHolder.i3d" node="0|5|0" noNormalNode="0|5|1" characterShape="1|0">
+        <spacing x="0.175" y="0.065"/>
+
+        <character uvIndex="0"  value="0"     type="numerical"/>
+        <character uvIndex="1"  value="1"     type="numerical"/>
+        <character uvIndex="2"  value="2"     type="numerical"/>
+        <character uvIndex="3"  value="3"     type="numerical"/>
+        <character uvIndex="4"  value="4"     type="numerical"/>
+        <character uvIndex="5"  value="5"     type="numerical"/>
+        <character uvIndex="6"  value="6"     type="numerical"/>
+        <character uvIndex="7"  value="7"     type="numerical"/>
+        <character uvIndex="8"  value="8"     type="numerical"/>
+        <character uvIndex="9"  value="9"     type="numerical"/>
+        <character uvIndex="10" value="-"     type="special"      spacingX="0.225"/>
+        <character uvIndex="11" value="A"     type="alphabetical"/>
+        <character uvIndex="12" value="B"     type="alphabetical"/>
+        <character uvIndex="13" value="C"     type="alphabetical"/>
+        <character uvIndex="14" value="D"     type="alphabetical"/>
+        <character uvIndex="15" value="E"     type="alphabetical"/>
+        <character uvIndex="16" value="F"     type="alphabetical"/>
+        <character uvIndex="17" value="G"     type="alphabetical"/>
+        <character uvIndex="18" value="H"     type="alphabetical"/>
+        <character uvIndex="19" value="I"     type="alphabetical"/>
+        <character uvIndex="20" value="J"     type="alphabetical"/>
+        <character uvIndex="21" value="K"     type="alphabetical"/>
+        <character uvIndex="22" value="L"     type="alphabetical"/>
+        <character uvIndex="23" value="M"     type="alphabetical"/>
+        <character uvIndex="24" value="N"     type="alphabetical"/>
+        <character uvIndex="25" value="O"     type="alphabetical"/>
+        <character uvIndex="26" value="P"     type="alphabetical"/>
+        <character uvIndex="27" value="Q"     type="alphabetical"/>
+        <character uvIndex="28" value="R"     type="alphabetical"/>
+        <character uvIndex="29" value="S"     type="alphabetical"/>
+        <character uvIndex="30" value="T"     type="alphabetical"/>
+        <character uvIndex="31" value="U"     type="alphabetical"/>
+        <character uvIndex="32" value="V"     type="alphabetical"/>
+        <character uvIndex="33" value="W"     type="alphabetical"/>
+        <character uvIndex="34" value="X"     type="alphabetical"/>
+        <character uvIndex="35" value="Y"     type="alphabetical"/>
+        <character uvIndex="36" value="Z"     type="alphabetical"/>
+        <character uvIndex="37" value=","     type="special"      spacingX="0.375" offsetY="-0.15"/>
+        <character uvIndex="38" value="."     type="special"      spacingX="0.375"/>
+        <character uvIndex="39" value=":"     type="special"      spacingX="0.375"/>
+        <character uvIndex="40" value="!"     type="special"      spacingX="0.375"/>
+        <character uvIndex="41" value="?"     type="special"      spacingX="0.130"/>
+        <character uvIndex="42" value="%"     type="special"      spacingX="0.090"/>
+        <character uvIndex="43" value="&amp;" type="special"      spacingX="0.150"/>
+        <character uvIndex="44" value="#"     type="special"      spacingX="0.100"/>
+        <character uvIndex="45" value="+"     type="special"/>
+    </font>
+    <font name="LICENSE_PLATE_US" filename="$data/shared/alphabet/fontMaterialHolder.i3d" node="0|6|0" noNormalNode="0|6|1" characterShape="1|0">
+        <spacing x="0.25" y="0.05"/>
+
+        <character uvIndex="0"  value="0"     type="numerical"/>
+        <character uvIndex="1"  value="1"     type="numerical"/>
+        <character uvIndex="2"  value="2"     type="numerical"/>
+        <character uvIndex="3"  value="3"     type="numerical"/>
+        <character uvIndex="4"  value="4"     type="numerical"/>
+        <character uvIndex="5"  value="5"     type="numerical"/>
+        <character uvIndex="6"  value="6"     type="numerical"/>
+        <character uvIndex="7"  value="7"     type="numerical"/>
+        <character uvIndex="8"  value="8"     type="numerical"/>
+        <character uvIndex="9"  value="9"     type="numerical"/>
+        <character uvIndex="10" value="-"     type="special"      spacingX="0.350"/>
+        <character uvIndex="11" value="A"     type="alphabetical"/>
+        <character uvIndex="12" value="B"     type="alphabetical"/>
+        <character uvIndex="13" value="C"     type="alphabetical"/>
+        <character uvIndex="14" value="D"     type="alphabetical"/>
+        <character uvIndex="15" value="E"     type="alphabetical"/>
+        <character uvIndex="16" value="F"     type="alphabetical"/>
+        <character uvIndex="17" value="G"     type="alphabetical"/>
+        <character uvIndex="18" value="H"     type="alphabetical"/>
+        <character uvIndex="19" value="I"     type="alphabetical"/>
+        <character uvIndex="20" value="J"     type="alphabetical"/>
+        <character uvIndex="21" value="K"     type="alphabetical"/>
+        <character uvIndex="22" value="L"     type="alphabetical"/>
+        <character uvIndex="23" value="M"     type="alphabetical"/>
+        <character uvIndex="24" value="N"     type="alphabetical"/>
+        <character uvIndex="25" value="O"     type="alphabetical"/>
+        <character uvIndex="26" value="P"     type="alphabetical"/>
+        <character uvIndex="27" value="Q"     type="alphabetical"/>
+        <character uvIndex="28" value="R"     type="alphabetical"/>
+        <character uvIndex="29" value="S"     type="alphabetical"/>
+        <character uvIndex="30" value="T"     type="alphabetical"/>
+        <character uvIndex="31" value="U"     type="alphabetical"/>
+        <character uvIndex="32" value="V"     type="alphabetical"/>
+        <character uvIndex="33" value="W"     type="alphabetical"/>
+        <character uvIndex="34" value="X"     type="alphabetical"/>
+        <character uvIndex="35" value="Y"     type="alphabetical"/>
+        <character uvIndex="36" value="Z"     type="alphabetical"/>
+        <character uvIndex="37" value=","     type="special"      spacingX="0.375" offsetY="-0.15"/>
+        <character uvIndex="38" value="."     type="special"      spacingX="0.345"/>
+        <character uvIndex="39" value=":"     type="special"      spacingX="0.375"/>
+        <character uvIndex="40" value="!"     type="special"      spacingX="0.375"/>
+        <character uvIndex="41" value="?"     type="special"      spacingX="0.210"/>
+        <character uvIndex="42" value="%"     type="special"      spacingX="0.110"/>
+        <character uvIndex="43" value="&amp;" type="special"      spacingX="0.180"/>
+        <character uvIndex="44" value="#"     type="special"      spacingX="0.220"/>
+        <character uvIndex="45" value="+"     type="special"      spacingX="0.240"/>
+    </font>
+    <font name="LICENSE_PLATE_FR" filename="$data/shared/alphabet/fontMaterialHolder.i3d" node="0|7|0" noNormalNode="0|7|1" characterShape="1|0">
+        <spacing x="0.215" y="0.04"/>
+
+        <character uvIndex="0"  value="0"     type="numerical"/>
+        <character uvIndex="1"  value="1"     type="numerical"/>
+        <character uvIndex="2"  value="2"     type="numerical"/>
+        <character uvIndex="3"  value="3"     type="numerical"/>
+        <character uvIndex="4"  value="4"     type="numerical"/>
+        <character uvIndex="5"  value="5"     type="numerical"/>
+        <character uvIndex="6"  value="6"     type="numerical"/>
+        <character uvIndex="7"  value="7"     type="numerical"/>
+        <character uvIndex="8"  value="8"     type="numerical"/>
+        <character uvIndex="9"  value="9"     type="numerical"/>
+        <character uvIndex="10" value="-"     type="special"      spacingX="0.40"/>
+        <character uvIndex="11" value="A"     type="alphabetical"/>
+        <character uvIndex="12" value="B"     type="alphabetical"/>
+        <character uvIndex="13" value="C"     type="alphabetical"/>
+        <character uvIndex="14" value="D"     type="alphabetical"/>
+        <character uvIndex="15" value="E"     type="alphabetical"/>
+        <character uvIndex="16" value="F"     type="alphabetical"/>
+        <character uvIndex="17" value="G"     type="alphabetical"/>
+        <character uvIndex="18" value="H"     type="alphabetical"/>
+        <character uvIndex="19" value="I"     type="alphabetical"/>
+        <character uvIndex="20" value="J"     type="alphabetical"/>
+        <character uvIndex="21" value="K"     type="alphabetical"/>
+        <character uvIndex="22" value="L"     type="alphabetical"/>
+        <character uvIndex="23" value="M"     type="alphabetical"/>
+        <character uvIndex="24" value="N"     type="alphabetical"/>
+        <character uvIndex="25" value="O"     type="alphabetical"/>
+        <character uvIndex="26" value="P"     type="alphabetical"/>
+        <character uvIndex="27" value="Q"     type="alphabetical"/>
+        <character uvIndex="28" value="R"     type="alphabetical"/>
+        <character uvIndex="29" value="S"     type="alphabetical"/>
+        <character uvIndex="30" value="T"     type="alphabetical"/>
+        <character uvIndex="31" value="U"     type="alphabetical"/>
+        <character uvIndex="32" value="V"     type="alphabetical"/>
+        <character uvIndex="33" value="W"     type="alphabetical"/>
+        <character uvIndex="34" value="X"     type="alphabetical"/>
+        <character uvIndex="35" value="Y"     type="alphabetical"/>
+        <character uvIndex="36" value="Z"     type="alphabetical"/>
+        <character uvIndex="37" value=","     type="special"      spacingX="0.415" offsetY="-0.15"/>
+        <character uvIndex="38" value="."     type="special"      spacingX="0.415"/>
+        <character uvIndex="39" value=":"     type="special"      spacingX="0.415"/>
+        <character uvIndex="40" value="!"     type="special"      spacingX="0.410"/>
+        <character uvIndex="41" value="?"     type="special"      spacingX="0.215"/>
+        <character uvIndex="42" value="%"     type="special"      spacingX="0.210"/>
+        <character uvIndex="43" value="&amp;" type="special"      spacingX="0.165"/>
+        <character uvIndex="44" value="#"     type="special"      spacingX="0.190"/>
+        <character uvIndex="45" value="+"     type="special"      spacingX="0.190"/>
+    </font>
+</fonts>

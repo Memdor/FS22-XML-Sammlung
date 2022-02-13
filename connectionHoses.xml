@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<connectionHoses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../shared/xml/schema/connectionHoses.xsd">
+    <basicHoses>
+        <basicHose filename="$data/shared/connectionHoses/hoses.i3d" node="0|0" length="1" realLength="1" diameter="0.008"  startStraightening="1"   endStraightening="1"   minCenterPointAngle="80"/>
+        <basicHose filename="$data/shared/connectionHoses/hoses.i3d" node="0|1" length="2" realLength="2" diameter="0.008"  startStraightening="1.5" endStraightening="1.5" minCenterPointAngle="80"/>
+        <basicHose filename="$data/shared/connectionHoses/hoses.i3d" node="0|2" length="3" realLength="3" diameter="0.008"  startStraightening="2"   endStraightening="2"   minCenterPointAngle="80"/>
+
+        <basicHose filename="$data/shared/connectionHoses/hoses.i3d" node="1|0" length="1" realLength="1" diameter="0.020"  startStraightening="1"   endStraightening="1"   minCenterPointAngle="90"/>
+        <basicHose filename="$data/shared/connectionHoses/hoses.i3d" node="1|1" length="2" realLength="2" diameter="0.020"  startStraightening="1.5" endStraightening="1.5" minCenterPointAngle="90"/>
+        <basicHose filename="$data/shared/connectionHoses/hoses.i3d" node="1|2" length="3" realLength="3" diameter="0.020"  startStraightening="2"   endStraightening="2"   minCenterPointAngle="90"/>
+
+        <basicHose filename="$data/shared/connectionHoses/hoses.i3d" node="2|0" length="1" realLength="1" diameter="0.066" startStraightening="0.5"   endStraightening="0.5" minCenterPointAngle="100"/>
+        <basicHose filename="$data/shared/connectionHoses/hoses.i3d" node="2|1" length="2" realLength="2" diameter="0.066" startStraightening="1.5"   endStraightening="1.5" minCenterPointAngle="100"/>
+        <basicHose filename="$data/shared/connectionHoses/hoses.i3d" node="2|2" length="3" realLength="3" diameter="0.066" startStraightening="2"     endStraightening="2"   minCenterPointAngle="100"/>
+
+        <basicHose filename="$data/shared/connectionHoses/hoses.i3d" node="3|0" length="0.5" realLength="1" diameter="0.140" startStraightening="1"   endStraightening="1"   minCenterPointAngle="110"/>
+        <basicHose filename="$data/shared/connectionHoses/hoses.i3d" node="3|0" length="1"   realLength="1" diameter="0.140" startStraightening="1.5" endStraightening="1.5" minCenterPointAngle="110"/>
+        <basicHose filename="$data/shared/connectionHoses/hoses.i3d" node="3|1" length="2"   realLength="2" diameter="0.140" startStraightening="2.5" endStraightening="2.5" minCenterPointAngle="110"/>
+        <basicHose filename="$data/shared/connectionHoses/hoses.i3d" node="3|2" length="3"   realLength="3" diameter="0.140" startStraightening="3"   endStraightening="3"   minCenterPointAngle="110"/>
+    </basicHoses>
+
+    <connectionHoseTypes>
+        <!-- air -->
+        <connectionHoseType name="airDoubleRed">
+            <adapter name="DEFAULT" filename="$data/shared/connectionHoses/connectors.i3d" node="0|3" detachedNode="1|3"/>
+            <material name="DEFAULT" filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="0" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0" uvScale="1 1"/>
+        </connectionHoseType>
+        <connectionHoseType name="airDoubleYellow">
+            <adapter name="DEFAULT" filename="$data/shared/connectionHoses/connectors.i3d" node="0|2" detachedNode="1|2"/>
+            <material name="DEFAULT" filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="0" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0" uvScale="1 1"/>
+        </connectionHoseType>
+
+        <!-- hydraulic -->
+        <connectionHoseType name="hydraulicIn">
+            <adapter name="DEFAULT" filename="$data/shared/connectionHoses/connectors.i3d" node="0|0" detachedNode="1|0"/>
+            <material name="DEFAULT" filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="0" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0" uvScale="1 1"/>
+        </connectionHoseType>
+        <connectionHoseType name="hydraulicOut">
+            <adapter name="DEFAULT" filename="$data/shared/connectionHoses/connectors.i3d" node="0|0" detachedNode="1|0"/>
+            <material name="DEFAULT" filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="0" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0" uvScale="1 1"/>
+        </connectionHoseType>
+
+        <!-- electric -->
+        <connectionHoseType name="electric">
+            <adapter name="DEFAULT" filename="$data/shared/connectionHoses/connectors.i3d" node="0|1" detachedNode="1|1"/>
+            <adapter name="METAL" filename="$data/shared/connectionHoses/connectors.i3d" node="0|4" detachedNode="1|4"/>
+            <material name="DEFAULT" filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="0" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0" uvScale="1 1"/>
+        </connectionHoseType>
+
+        <!-- isobus -->
+        <connectionHoseType name="isobus">
+            <adapter name="DEFAULT" filename="$data/shared/connectionHoses/connectors.i3d" node="0|5" detachedNode="1|5"/>
+            <material name="DEFAULT" filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="0" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0" uvScale="1 1"/>
+        </connectionHoseType>
+
+        <!-- tool connector pipes -->
+        <connectionHoseType name="TOOL_CONNECTOR_TOP_RIGHT">
+            <material name="DEFAULT" filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="1" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0.5" uvScale="1 1"/>
+            <material name="RUBBER"  filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="1" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0" uvScale="1 1"/>
+        </connectionHoseType>
+        <connectionHoseType name="TOOL_CONNECTOR_BOTTOM_01">
+            <material name="DEFAULT" filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="1" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0.5" uvScale="1 1"/>
+            <material name="RUBBER"  filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="1" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0" uvScale="1 1"/>
+        </connectionHoseType>
+        <connectionHoseType name="TOOL_CONNECTOR_BOTTOM_02">
+            <material name="DEFAULT" filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="1" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0.5" uvScale="1 1"/>
+            <material name="RUBBER"  filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="1" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0" uvScale="1 1"/>
+        </connectionHoseType>
+        <connectionHoseType name="TOOL_CONNECTOR_BOTTOM_03">
+            <material name="DEFAULT" filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="1" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0.5" uvScale="1 1"/>
+            <material name="RUBBER"  filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="1" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0" uvScale="1 1"/>
+        </connectionHoseType>
+        <connectionHoseType name="TOOL_CONNECTOR_BOTTOM_04">
+            <material name="DEFAULT" filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="1" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0.5" uvScale="1 1"/>
+            <material name="RUBBER"  filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="1" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0" uvScale="1 1"/>
+        </connectionHoseType>
+
+        <!-- cable boundles for local hoses -->
+        <connectionHoseType name="CABLE_BOUNDLE">
+            <material name="DEFAULT" filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="2" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0.406" uvScale="1.6 3"/>
+            <material name="MAT_02" filename="$data/shared/connectionHoses/hoseMaterialHolder.i3d" materialNode="1" defaultColor="0.01 0.01 0.01 0" uvOffset="0 0.5" uvScale="2 1"/>
+        </connectionHoseType>
+    </connectionHoseTypes>
+
+    <sockets>
+        <socket name="electric" filename="$data/shared/connectionHoses/connectors.i3d" node="2|0" referenceNode="0">
+            <cap node="1" openedRotation="0 0 0" closedRotation="-90 0 0"/>
+        </socket>
+        <socket name="electric_metal" filename="$data/shared/connectionHoses/connectors.i3d" node="2|1" referenceNode="0">
+            <cap node="1" openedRotation="0 0 0" closedRotation="-90 0 0"/>
+        </socket>
+        <socket name="hydraulic01" filename="$data/shared/connectionHoses/connectors.i3d" node="2|2" referenceNode="0" shaderParameterColor="colorMat0">
+            <cap node="1" openedVisibility="false" closedVisibility="true"/>
+            <cap node="2" openedVisibility="true"  closedVisibility="false"/>
+        </socket>
+        <socket name="hydraulic02" filename="$data/shared/connectionHoses/connectors.i3d" node="2|3" referenceNode="0" shaderParameterColor="colorMat1">
+            <cap node="1" openedVisibility="false" closedVisibility="true"/>
+            <cap node="2" openedVisibility="true"  closedVisibility="false"/>
+        </socket>
+        <socket name="air_yellow" filename="$data/shared/connectionHoses/connectors.i3d" node="2|4" referenceNode="0" shaderParameterColor="colorMat0">
+            <cap node="1" openedRotation="0 0 0" closedRotation="-95 0 0"/>
+        </socket>
+        <socket name="air_red" filename="$data/shared/connectionHoses/connectors.i3d" node="2|5" referenceNode="0" shaderParameterColor="colorMat1">
+            <cap node="1" openedRotation="0 0 0" closedRotation="-95 0 0"/>
+        </socket>
+        <socket name="hydraulic03" filename="$data/shared/connectionHoses/connectors.i3d" node="2|6" referenceNode="0" shaderParameterColor="colorMat0">
+            <cap node="1" openedRotation="0 70 0" closedRotation="0 0 0"/>
+        </socket>
+        <socket name="hydraulic04" filename="$data/shared/connectionHoses/connectors.i3d" node="2|7" referenceNode="0" shaderParameterColor="colorMat0">
+            <cap node="1" openedRotation="0 70 0" closedRotation="0 0 0"/>
+        </socket>
+        <socket name="isobus" filename="$data/shared/connectionHoses/connectors.i3d" node="2|8" referenceNode="0">
+            <cap node="1" openedRotation="73 0 0" closedRotation="0 0 0"/>
+        </socket>
+    </sockets>
+</connectionHoses>

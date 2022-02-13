@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<objects>
+  <objects name="Lizard_Lights"     link ="bin/data/shared/assets/lights/lizard"/>
+  <objects name="Lizard_Reflectors" link ="bin/data/shared/assets/reflectors/lizard"/>
+  <objects name="Hella_Lights"      link ="bin/data/shared/assets/lights/hella"/>
+  <objects name="Krone"		        link ="bin/data/shared/assets/lights/krone"/>
+  <objects name="Wheel_Chocks"      link ="bin/data/shared/assets/wheelChocks"/>
+  <objects name="Lizard_Beacons"    link ="bin/data/shared/assets/beaconLights/lizard"/>
+  <objects name="Others"            link ="bin/data/shared/assets"/>
+  <objects name="Hose Connections"  link ="bin/data/shared/connectionHoses"/>
+  <objects name="Hormann_Lights"    link ="bin/data/shared/assets/lights/rudolfHormann"/>
+  <objects name="TerraLed_Lights"   link ="bin/data/shared/assets/lights/terraLed"/>
+  <objects name="Lizard_Buildings"  link ="bin/data/shared/assets/lights/lizard/buildings"/>
+  <objects name="Car_Hitches"       link ="bin/data/shared/assets/carHitches/lizard"/>
+</objects>
+
+
+
+
+
